@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public float maxSpeed = 5;
     public float reactiveCoefficient = 1.5f;
     public float airDragCoefficient = 0.3f;
+    public float sprintMultiplier = 1.7f;
+    
     
     [Tooltip("For moving in perpendicular to normal touch vector")]
     public float underObjectFindDistance = 0.2f;
@@ -45,9 +47,15 @@ public class PlayerController : MonoBehaviour
     private float _lastJumpTime = 0;
     private RaycastHit2D _objectUnder;
     private Queue<(Vector3 , float)> _positionsSnapshot = new Queue<(Vector3, float)>();
+    private float _currentMaxSpeed;
+    private float _currentMaxAcceleration;
+    
     
     private PlayerInputScheme input;
-    
+    private bool sprintingPressd;
+
+    public bool Sprinting => sprintingPressd && IsLanded(player.position);
+
     public bool IsLanded(Vector3 position) => Physics2D.OverlapCircle(position + ((Vector3)Physics2D.gravity.normalized * groundCheckDistance) , groundCheckRadius , groundMask);
 
     private void OnDrawGizmosSelected()
@@ -69,6 +77,8 @@ public class PlayerController : MonoBehaviour
         
         EnableAllActions();
         SubscribeAllActions();
+        _currentMaxAcceleration = maxAcceleration;
+        _currentMaxSpeed = maxSpeed;
     }
 
     private void Update()
@@ -89,12 +99,28 @@ public class PlayerController : MonoBehaviour
         input.Player.Move.started += StartMovePlayer;
         input.Player.Move.canceled += StartMovePlayer;
         input.Player.Jump.performed += Jump;
+        input.Player.Sprint.performed += Sprint;
+    }
+
+    private void Sprint(InputAction.CallbackContext obj)
+    {
+        if (obj.ReadValueAsButton())
+        {
+            sprintingPressd = true;
+        }
+        else
+        {
+            sprintingPressd = false;
+        }
+        SetSpeed();
+        Debug.Log(sprintingPressd);
     }
 
     private void EnableAllActions()
     {
         input.Player.Move.Enable();   
-        input.Player.Jump.Enable();   
+        input.Player.Jump.Enable();
+        input.Player.Sprint.Enable();
     }
 
     private void Jump(InputAction.CallbackContext obj)
@@ -136,19 +162,34 @@ public class PlayerController : MonoBehaviour
         _currentPositionOnCurve += ((_moveDirection.sqrMagnitude == 0 ? -1 : 1) * Time.deltaTime);
         _currentPositionOnCurve = Mathf.Clamp01(_currentPositionOnCurve);
 
+        SetSpeed();
+        
         if (_moveDirection.sqrMagnitude == 0)
         {
             _currentPositionOnCurve = 0;
             return;
         }
         
-        if (Mathf.Abs(rigidBody.velocity.x) < maxSpeed)
+        if (Mathf.Abs(rigidBody.velocity.x) < _currentMaxSpeed)
         {
             bool isOppositeMove = Mathf.Approximately(Mathf.Sign(rigidBody.velocity.x) * Mathf.Sign(_moveDirection.x) , -1);
-            Debug.Log(isOppositeMove);
-            float currentSpeed = ((isOppositeMove ? reactiveCoefficient : 1) * maxAcceleration * accelerationCurve.Evaluate(_currentPositionOnCurve) * Time.deltaTime);
+            float currentSpeed = ((isOppositeMove ? reactiveCoefficient : 1) * _currentMaxAcceleration * accelerationCurve.Evaluate(_currentPositionOnCurve) * Time.deltaTime);
             var deltaVelocity = _moveDirection * (currentSpeed * (IsLanded(player.position)? 1 : airDragCoefficient));
             rigidBody.velocity += deltaVelocity;
+        }
+    }
+
+    private void SetSpeed()
+    {
+        if (Sprinting)
+        {
+            _currentMaxSpeed = maxSpeed * sprintMultiplier;
+            _currentMaxAcceleration = maxAcceleration * sprintMultiplier;
+        }
+        else
+        {
+            _currentMaxSpeed = maxSpeed / sprintMultiplier;
+            _currentMaxAcceleration = maxAcceleration / sprintMultiplier;
         }
     }
 }
