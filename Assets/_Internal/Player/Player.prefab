@@ -327,7 +327,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxAcceleration: 20
+  maxAcceleration: 27
   maxSpeed: 6
   reactiveCoefficient: 2.5
   airDragCoefficient: 0.3
