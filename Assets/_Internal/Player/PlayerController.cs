@@ -6,16 +6,21 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [Space]
+    [Header("Player Settings")]
+    public PlayerState currentPlayerState = PlayerState.Rabbit;
+    public HealthController rabbitHealthController;
+    public HealthController bearHealthController;
 
     [Header("Components")]
     public PhysicsMaterial2D material2D;
     public Rigidbody2D rigidBody;
     public Transform player;
-    
+
     public LayerMask groundMask;
 
     public AnimationCurve accelerationCurve;
-    
+
     [Space]
     [Header("Speed settings")]
     public float maxAcceleration = 2;
@@ -23,11 +28,11 @@ public class PlayerController : MonoBehaviour
     public float reactiveCoefficient = 1.5f;
     public float airDragCoefficient = 0.3f;
     public float sprintMultiplier = 1.7f;
-    
-    
+
+
     [Tooltip("For moving in perpendicular to normal touch vector")]
     public float underObjectFindDistance = 0.2f;
-    
+
     [Space]
     [Header("Jump settings")]
     public float jumpHeight = 2;
@@ -36,54 +41,73 @@ public class PlayerController : MonoBehaviour
     public float positionsSavingTimeInterval = 0.1f;
     public float groundCheckDistance = 0.2f;
     public float groundCheckRadius = 0.2f;
-    
+
     [Space]
     [Header("Gizmo settings")]
     public float maxHeightGizmoRadius = 1;
-    
-    
+
+
+
     private Vector2 _moveDirection = Vector2.zero;
     private float _currentPositionOnCurve = 0;
     private float _lastJumpTime = 0;
     private RaycastHit2D _objectUnder;
-    private Queue<(Vector3 , float)> _positionsSnapshot = new Queue<(Vector3, float)>();
+    private Queue<(Vector3, float)> _positionsSnapshot = new Queue<(Vector3, float)>();
     private float _currentMaxSpeed;
     private float _currentMaxAcceleration;
-    
-    
+
+
     private PlayerInputScheme input;
     private bool sprintingPressd;
 
+
+    private HealthController currentHealthController;
+
     public bool Sprinting => sprintingPressd && IsLanded(player.position);
 
-    public bool IsLanded(Vector3 position) => Physics2D.OverlapCircle(position + ((Vector3)Physics2D.gravity.normalized * groundCheckDistance) , groundCheckRadius , groundMask);
+    public bool IsLanded(Vector3 position) => Physics2D.OverlapCircle(position + ((Vector3)Physics2D.gravity.normalized * groundCheckDistance), groundCheckRadius, groundMask);
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawSphere(player.position + Vector3.up * jumpHeight , maxHeightGizmoRadius);
+        Gizmos.DrawSphere(player.position + Vector3.up * jumpHeight, maxHeightGizmoRadius);
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(player.position , Vector3.down * underObjectFindDistance);
+        Gizmos.DrawRay(player.position, Vector3.down * underObjectFindDistance);
         Gizmos.color = Color.yellow;
-        Gizmos.DrawSphere(player.position + Vector3.down * groundCheckDistance , groundCheckRadius);
+        Gizmos.DrawSphere(player.position + Vector3.down * groundCheckDistance, groundCheckRadius);
         Gizmos.color = Color.blue;
         if (Application.isPlaying)
-            Gizmos.DrawRay(player.position , rigidBody.velocity * 10);
+            Gizmos.DrawRay(player.position, rigidBody.velocity * 10);
     }
 
     private void Awake()
     {
         input = new PlayerInputScheme();
-        
+
         EnableAllActions();
         SubscribeAllActions();
         _currentMaxAcceleration = maxAcceleration;
         _currentMaxSpeed = maxSpeed;
     }
 
+    private void Start()
+    {
+        SetHealthController();
+    }
+
+    private void SetHealthController()
+    {
+        if (currentPlayerState == PlayerState.Rabbit)
+            currentHealthController = rabbitHealthController;
+        else
+            currentHealthController = bearHealthController;
+
+        currentHealthController.OnHealthChanged?.Invoke(currentHealthController.CurrentHealth);
+    }
+
     private void Update()
     {
-        _positionsSnapshot.Enqueue((player.position , Time.time));
+        _positionsSnapshot.Enqueue((player.position, Time.time));
         if (Time.time - _positionsSnapshot.Peek().Item2 >= safeJumpDelay)
             _positionsSnapshot.Dequeue();
     }
@@ -118,7 +142,7 @@ public class PlayerController : MonoBehaviour
 
     private void EnableAllActions()
     {
-        input.Player.Move.Enable();   
+        input.Player.Move.Enable();
         input.Player.Jump.Enable();
         input.Player.Sprint.Enable();
     }
@@ -127,11 +151,11 @@ public class PlayerController : MonoBehaviour
     {
         if (Time.time - _lastJumpTime < jumpCooldown) return;
         if (!obj.ReadValueAsButton()) return;
-        if(!IsLanded(player.position) && !IsLanded(_positionsSnapshot.Peek().Item1)) return;
-        
+        if (!IsLanded(player.position) && !IsLanded(_positionsSnapshot.Peek().Item1)) return;
+
         float startYSpeed = Mathf.Sqrt(2 * Mathf.Abs(Physics2D.gravity.y) * jumpHeight);
         Vector2 startVelocity = -startYSpeed * Physics2D.gravity.normalized;
-            
+
         var rigidBodyVelocity = rigidBody.velocity;
         if (IsLanded(_positionsSnapshot.Peek().Item1) && !IsLanded(player.position))
             rigidBodyVelocity.y = startVelocity.y;
@@ -154,8 +178,8 @@ public class PlayerController : MonoBehaviour
             _moveDirection.x = obj.ReadValue<float>();
         }
     }
-    
-    
+
+
 
     private void MovePlayer()
     {
@@ -163,18 +187,18 @@ public class PlayerController : MonoBehaviour
         _currentPositionOnCurve = Mathf.Clamp01(_currentPositionOnCurve);
 
         SetSpeed();
-        
+
         if (_moveDirection.sqrMagnitude == 0)
         {
             _currentPositionOnCurve = 0;
             return;
         }
-        
+
         if (Mathf.Abs(rigidBody.velocity.x) < _currentMaxSpeed)
         {
-            bool isOppositeMove = Mathf.Approximately(Mathf.Sign(rigidBody.velocity.x) * Mathf.Sign(_moveDirection.x) , -1);
+            bool isOppositeMove = Mathf.Approximately(Mathf.Sign(rigidBody.velocity.x) * Mathf.Sign(_moveDirection.x), -1);
             float currentSpeed = ((isOppositeMove ? reactiveCoefficient : 1) * _currentMaxAcceleration * accelerationCurve.Evaluate(_currentPositionOnCurve) * Time.deltaTime);
-            var deltaVelocity = _moveDirection * (currentSpeed * (IsLanded(player.position)? 1 : airDragCoefficient));
+            var deltaVelocity = _moveDirection * (currentSpeed * (IsLanded(player.position) ? 1 : airDragCoefficient));
             rigidBody.velocity += deltaVelocity;
         }
     }
@@ -192,4 +216,9 @@ public class PlayerController : MonoBehaviour
             _currentMaxAcceleration = maxAcceleration / sprintMultiplier;
         }
     }
+}
+
+public enum PlayerState
+{
+    Rabbit, Bear
 }
