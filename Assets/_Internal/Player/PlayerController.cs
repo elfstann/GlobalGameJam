@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
     [Space]
     [Header("Player Settings")]
@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
 
 
     private HealthController currentHealthController;
+    public HealthController CurrentHealthController { get { return currentHealthController; } }
 
     public bool Sprinting => sprintingPressd && IsLanded(player.position);
 
