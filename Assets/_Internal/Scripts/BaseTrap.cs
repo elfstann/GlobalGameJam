@@ -8,6 +8,7 @@ public abstract class BaseTrap : MonoBehaviour
     [SerializeField] int damagePerHit;
     [SerializeField] GameObject vfxOnHit;
     [SerializeField] Collider2D trapCollider;
+    [SerializeField] bool destroyOnCollision = true;
 
     private void Awake()
     {
@@ -28,6 +29,6 @@ public abstract class BaseTrap : MonoBehaviour
         }
 
         if (vfxOnHit != null) Instantiate(vfxOnHit, collision.GetContact(0).point, Quaternion.identity);
-        Destroy(gameObject.transform.parent.gameObject);
+        if(destroyOnCollision) Destroy(gameObject.transform.parent.gameObject);
     }
 }
