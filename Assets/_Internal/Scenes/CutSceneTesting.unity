@@ -355,7 +355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   itemName: Item1
-  vfxOnPick: {fileID: 0}
+  vfxOnPick: {fileID: 4828029203066539410, guid: e10d3c5b4048ca74787195f83ebd7032, type: 3}
   destroyOnPick: 1
 --- !u!61 &237733998
 BoxCollider2D:
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   itemName: Item1
-  vfxOnPick: {fileID: 0}
+  vfxOnPick: {fileID: 4828029203066539410, guid: e10d3c5b4048ca74787195f83ebd7032, type: 3}
   destroyOnPick: 1
 --- !u!212 &980022609
 SpriteRenderer:
@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   itemName: Item1
-  vfxOnPick: {fileID: 0}
+  vfxOnPick: {fileID: 4828029203066539410, guid: e10d3c5b4048ca74787195f83ebd7032, type: 3}
   destroyOnPick: 1
 --- !u!212 &1202964839
 SpriteRenderer:
@@ -2414,7 +2414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   itemName: Item1
-  vfxOnPick: {fileID: 0}
+  vfxOnPick: {fileID: 4828029203066539410, guid: e10d3c5b4048ca74787195f83ebd7032, type: 3}
   destroyOnPick: 1
 --- !u!212 &2008596344
 SpriteRenderer:
