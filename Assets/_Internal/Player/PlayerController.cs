@@ -11,6 +11,7 @@ public class PlayerController : Singleton<PlayerController>
     public PlayerState currentPlayerState = PlayerState.Rabbit;
     public HealthController rabbitHealthController;
     public HealthController bearHealthController;
+    public ItemPicker itemPicker;
 
     [Header("Components")]
     public PhysicsMaterial2D material2D;
