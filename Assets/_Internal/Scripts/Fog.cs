@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Fog : MonoBehaviour
 {
-    [SerializeField]
-    GameObject FogRB;
 
     [SerializeField]
     Transform player;
@@ -53,7 +51,7 @@ public class Fog : MonoBehaviour
 
     void ChasePlayer()
     {
-        if (transform.position.x < player.position.x)
+        if (SeeLeft)
         {
             rb2d.velocity = new Vector2(movespeed, 0);
         }
@@ -66,11 +64,11 @@ public class Fog : MonoBehaviour
     {
         if (transform.position.x < player.position.x)
         {
-            SeeLeft = true;
+            SeeLeft = false;
         }
         else
         {
-            SeeLeft = false;
+            SeeLeft = true;
         }
     }
 
@@ -80,7 +78,7 @@ public class Fog : MonoBehaviour
     }
     void GoBack()
     {
-        if (transform.position.x < player.position.x)
+        if (SeeLeft)
         {
             rb2d.velocity = new Vector2(-movespeed, 0);
         }
@@ -101,7 +99,8 @@ public class Fog : MonoBehaviour
         }
 
         Vector2 endPose = firefly.position + Vector3.right * castDist;
-        RaycastHit2D hit = Physics2D.Linecast(firefly.position, endPose, 1 << LayerMask.NameToLayer("Action"));
+        RaycastHit2D hit = Physics2D.Raycast(firefly.position, endPose, 1 << LayerMask.NameToLayer("Action"));
+        
         if (hit.collider != null)
         {
             if (hit.collider.gameObject.CompareTag("Fog"))
@@ -116,7 +115,7 @@ public class Fog : MonoBehaviour
         }
         else
         {
-            Debug.DrawLine(firefly.position, endPose, Color.red);
+            Debug.DrawLine(firefly.position, endPose, Color.blue);
         }
         return val;
    
