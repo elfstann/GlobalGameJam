@@ -1,3 +1,4 @@
+using Cinemachine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -17,6 +18,7 @@ public class PlayerController : Singleton<PlayerController>
     public PhysicsMaterial2D material2D;
     public Rigidbody2D rigidBody;
     public Transform player;
+    public CinemachineVirtualCamera cinemachineVirtualCamera;
 
     public LayerMask groundMask;
 
@@ -104,7 +106,7 @@ public class PlayerController : Singleton<PlayerController>
         else
             currentHealthController = bearHealthController;
 
-        currentHealthController.OnHealthChanged?.Invoke(currentHealthController.CurrentHealth);
+        currentHealthController.OnHealthChanged?.Invoke(currentHealthController.CurrentHealth, currentHealthController.HealthImage);
     }
 
     private void Update()
@@ -112,6 +114,8 @@ public class PlayerController : Singleton<PlayerController>
         _positionsSnapshot.Enqueue((player.position, Time.time));
         if (Time.time - _positionsSnapshot.Peek().Item2 >= safeJumpDelay)
             _positionsSnapshot.Dequeue();
+
+        DecreaseShakeTime();
     }
 
     private void FixedUpdate()
@@ -218,6 +222,25 @@ public class PlayerController : Singleton<PlayerController>
             _currentMaxAcceleration = maxAcceleration / sprintMultiplier;
         }
     }
+
+    CinemachineBasicMultiChannelPerlin perlin;
+    float shakeTime = 0;
+    public void ShakeCamera(float intensity, float time)
+    {
+        perlin = cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        perlin.m_AmplitudeGain = intensity;
+        shakeTime = time;
+    }
+
+    private void DecreaseShakeTime()
+    {
+        if (shakeTime <= 0f)
+            return;
+
+        shakeTime -= Time.deltaTime;
+        if(shakeTime<=0f) perlin.m_AmplitudeGain = 0;
+    }
+
 }
 
 public enum PlayerState

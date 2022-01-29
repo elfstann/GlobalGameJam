@@ -300,9 +300,11 @@ MonoBehaviour:
   currentPlayerState: 0
   rabbitHealthController: {fileID: 0}
   bearHealthController: {fileID: 0}
+  itemPicker: {fileID: 0}
   material2D: {fileID: 6200000, guid: cb3580f7400a22043a921e1b0392e7ad, type: 2}
   rigidBody: {fileID: 2215558342421072864}
   player: {fileID: 2215558342421072867}
+  cinemachineVirtualCamera: {fileID: 2215558340850421623}
   groundMask:
     serializedVersion: 2
     m_Bits: 128

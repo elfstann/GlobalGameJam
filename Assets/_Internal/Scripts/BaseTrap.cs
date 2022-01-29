@@ -30,5 +30,6 @@ public abstract class BaseTrap : MonoBehaviour
 
         if (vfxOnHit != null) Instantiate(vfxOnHit, collision.GetContact(0).point, Quaternion.identity);
         if(destroyOnCollision) Destroy(gameObject.transform.parent.gameObject);
+        PlayerController.Instance.ShakeCamera(1f, .2f);
     }
 }
