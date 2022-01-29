@@ -9,8 +9,9 @@ public class HealthViewer : MonoBehaviour
     [SerializeField] Image heartImage;
     [SerializeField] TextMeshProUGUI healthCountText;
 
-    public void UpdateHealthCount(int healthCount)
+    public void UpdateHealthCount(int healthCount, Sprite healthImage)
     {
         healthCountText.text = healthCount.ToString();
+        heartImage.sprite = healthImage;
     }
 }
