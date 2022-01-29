@@ -166,10 +166,12 @@ public class PlayerController : Singleton<PlayerController>
 
     private void SwapHero(InputAction.CallbackContext obj)
     {
-        currentPlayerState = (PlayerState) (1 - ((int)currentPlayerState)); 
+        currentPlayerState = (PlayerState) (1 - ((int)currentPlayerState));
+        SetHealthController();
         Debug.Log(currentPlayerState);
         rabbitAnimator.gameObject.SetActive(currentPlayerState == PlayerState.Rabbit);
         bearAnimator.gameObject.SetActive(currentPlayerState == PlayerState.Bear);
+        currentHealthController.OnHealthChanged?.Invoke(currentHealthController.CurrentHealth, currentHealthController.HealthImage);
     }
 
     private void Fire(InputAction.CallbackContext obj)
