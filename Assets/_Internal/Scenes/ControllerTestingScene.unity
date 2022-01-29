@@ -731,8 +731,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 4.324999}
-  m_Size: {x: 5.4509497, y: 8.65}
+  m_Offset: {x: 0, y: 4.1}
+  m_Size: {x: 4.4687285, y: 8.248694}
   m_Direction: 0
 --- !u!1 &355435970
 GameObject:
@@ -2785,7 +2785,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 748394915945698822, guid: 1e7f0a57964b6bc4fb5a71f7e6b348a2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2215558340850421624, guid: 1e7f0a57964b6bc4fb5a71f7e6b348a2, type: 3}
       propertyPath: m_BoundingShape2D
@@ -2885,11 +2885,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104638024366892436, guid: 1e7f0a57964b6bc4fb5a71f7e6b348a2, type: 3}
       propertyPath: m_Offset.x
-      value: -0.20043693
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9104638024366892436, guid: 1e7f0a57964b6bc4fb5a71f7e6b348a2, type: 3}
       propertyPath: m_Offset.y
-      value: 4.1243443
+      value: 4.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e7f0a57964b6bc4fb5a71f7e6b348a2, type: 3}

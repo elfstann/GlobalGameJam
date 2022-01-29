@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "SwapHero",
+                    "type": "Button",
+                    "id": "7183d026-893d-4756-a703-fcdb0e9a0950",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -291,6 +300,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc6309ad-a520-4eb9-a5ac-1f71889b3fa5",
+                    "path": "<Keyboard>/q",
+                    "interactions": "Hold(duration=0.4,pressPoint=0.5)",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SwapHero",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

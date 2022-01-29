@@ -1,7 +1,157 @@
 fileFormatVersion: 2
 guid: 900fd3f867c27fe46927e7c5ba1b39da
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4273991369606165836
+    second: 4the fall_0
+  - first:
+      213: 4940011729207029497
+    second: 4the fall_1
+  - first:
+      213: -3165903313999083310
+    second: 4the fall_2
+  - first:
+      213: -5225342398670454677
+    second: 4the fall_3
+  - first:
+      213: 4073138367365308825
+    second: 4the fall_4
+  - first:
+      213: 8601095087445290881
+    second: 4the fall_5
+  - first:
+      213: 4360715174789555571
+    second: 4the fall_6
+  - first:
+      213: -4572120578266929487
+    second: 4the fall_7
+  - first:
+      213: 3992941501691264737
+    second: 4the fall_8
+  - first:
+      213: 3872347677770727865
+    second: 4the fall_9
+  - first:
+      213: -2945678600580483511
+    second: 4the fall_10
+  - first:
+      213: 3220169867868709000
+    second: 4the fall_11
+  - first:
+      213: -700947409024059914
+    second: 4the fall_12
+  - first:
+      213: 4658211000747368477
+    second: 4the fall_13
+  - first:
+      213: -7880731957998662847
+    second: 4the fall_14
+  - first:
+      213: 1095631798641016890
+    second: 4the fall_15
+  - first:
+      213: -568807570004638677
+    second: 4the fall_16
+  - first:
+      213: -8494488514599568660
+    second: 4the fall_17
+  - first:
+      213: 683869487617415958
+    second: 4the fall_18
+  - first:
+      213: 1438999185428852013
+    second: 4the fall_19
+  - first:
+      213: 5413639878365058450
+    second: 4the fall_20
+  - first:
+      213: -7430777075135723828
+    second: 4the fall_21
+  - first:
+      213: 5616465074838624667
+    second: 4the fall_22
+  - first:
+      213: 6147603313591051506
+    second: 4the fall_23
+  - first:
+      213: -1515475297805232019
+    second: 4the fall_24
+  - first:
+      213: 5018058405480331351
+    second: 4the fall_25
+  - first:
+      213: -5097356936123828393
+    second: 4the fall_26
+  - first:
+      213: 715942636812840988
+    second: 4the fall_27
+  - first:
+      213: -8684538501325711828
+    second: 4the fall_28
+  - first:
+      213: -6874222975213761113
+    second: 4the fall_29
+  - first:
+      213: 6160910452952008407
+    second: 4the fall_30
+  - first:
+      213: 3236547443776506369
+    second: 4the fall_31
+  - first:
+      213: -8243715314226844475
+    second: 4the fall_32
+  - first:
+      213: -7049349753809871362
+    second: 4the fall_33
+  - first:
+      213: -5071418803497315807
+    second: 4the fall_34
+  - first:
+      213: -7050960872778749055
+    second: 4the fall_35
+  - first:
+      213: 7995506591101730792
+    second: 4the fall_36
+  - first:
+      213: -3967191130422177457
+    second: 4the fall_37
+  - first:
+      213: 2254873742183472626
+    second: 4the fall_38
+  - first:
+      213: -5392364678427115555
+    second: 4the fall_39
+  - first:
+      213: 689341462350142845
+    second: 4the fall_40
+  - first:
+      213: 3860282976883669842
+    second: 4the fall_41
+  - first:
+      213: -5192236441375520355
+    second: 4the fall_42
+  - first:
+      213: -3022903611396835594
+    second: 4the fall_43
+  - first:
+      213: 2963340659051232511
+    second: 4the fall_44
+  - first:
+      213: -8323113173970889481
+    second: 4the fall_45
+  - first:
+      213: -1734753955356935906
+    second: 4the fall_46
+  - first:
+      213: 8323946627482731789
+    second: 4the fall_47
+  - first:
+      213: 6100435757251394104
+    second: 4the fall_48
+  - first:
+      213: -1460753638580245183
+    second: 4the fall_49
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +239,1057 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 4the fall_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7027
+        width: 842
+        height: 976
+      alignment: 9
+      pivot: {x: 0.9427555, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45f57e8184405b30800000000000000
+      internalID: 4273991369606165836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_1
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 7029
+        width: 826
+        height: 988
+      alignment: 9
+      pivot: {x: 0.9424239, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fee5a19e727e8440800000000000000
+      internalID: 4940011729207029497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_2
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 7027
+        width: 805
+        height: 997
+      alignment: 9
+      pivot: {x: 0.95396537, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d84ad7a5b37014d0800000000000000
+      internalID: -3165903313999083310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_3
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 7028
+        width: 788
+        height: 1005
+      alignment: 9
+      pivot: {x: 0.94197166, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60c57106cadb77b0800000000000000
+      internalID: -5225342398670454677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_4
+      rect:
+        serializedVersion: 2
+        x: 4370
+        y: 7027
+        width: 768
+        height: 1013
+      alignment: 9
+      pivot: {x: 0.9279334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991e2d3c3c1b68830800000000000000
+      internalID: 4073138367365308825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_5
+      rect:
+        serializedVersion: 2
+        x: 5451
+        y: 7027
+        width: 751
+        height: 1021
+      alignment: 9
+      pivot: {x: 0.94741714, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa886596a3d5770800000000000000
+      internalID: 8601095087445290881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_6
+      rect:
+        serializedVersion: 2
+        x: 6540
+        y: 7028
+        width: 734
+        height: 1026
+      alignment: 9
+      pivot: {x: 0.932719, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375acffe85f548c30800000000000000
+      internalID: 4360715174789555571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_7
+      rect:
+        serializedVersion: 2
+        x: 7628
+        y: 7027
+        width: 714
+        height: 1026
+      alignment: 9
+      pivot: {x: 0.91351676, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66526ee809c80c0800000000000000
+      internalID: -4572120578266929487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 5859
+        width: 697
+        height: 1030
+      alignment: 9
+      pivot: {x: 0.9039417, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef839e327c96730800000000000000
+      internalID: 3992941501691264737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_9
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 5859
+        width: 676
+        height: 1034
+      alignment: 9
+      pivot: {x: 0.9052339, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1455442b75db530800000000000000
+      internalID: 3872347677770727865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_10
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 5859
+        width: 655
+        height: 1038
+      alignment: 9
+      pivot: {x: 0.8911189, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9463eed6be8de17d0800000000000000
+      internalID: -2945678600580483511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_11
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 5859
+        width: 638
+        height: 1051
+      alignment: 9
+      pivot: {x: 0.8796746, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8802bb20f6750bc20800000000000000
+      internalID: 3220169867868709000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_12
+      rect:
+        serializedVersion: 2
+        x: 4521
+        y: 5859
+        width: 617
+        height: 1059
+      alignment: 9
+      pivot: {x: 0.8658762, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5f3e69b0cb546f0800000000000000
+      internalID: -700947409024059914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_13
+      rect:
+        serializedVersion: 2
+        x: 5592
+        y: 5859
+        width: 614
+        height: 1068
+      alignment: 9
+      pivot: {x: 0.8674714, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d102d54993a45a040800000000000000
+      internalID: 4658211000747368477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_14
+      rect:
+        serializedVersion: 2
+        x: 6665
+        y: 5863
+        width: 609
+        height: 1072
+      alignment: 9
+      pivot: {x: 0.8826353, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bcb61c90402a290800000000000000
+      internalID: -7880731957998662847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_15
+      rect:
+        serializedVersion: 2
+        x: 7733
+        y: 5863
+        width: 617
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.8387073, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30ce92e057743f00800000000000000
+      internalID: 1095631798641016890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 4695
+        width: 634
+        height: 1084
+      alignment: 9
+      pivot: {x: 0.78667605, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24025c57803b18f0800000000000000
+      internalID: -568807570004638677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_17
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 4697
+        width: 651
+        height: 1089
+      alignment: 9
+      pivot: {x: 0.7623158, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea38a2a3b38d1a80800000000000000
+      internalID: -8494488514599568660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_18
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 4696
+        width: 659
+        height: 1093
+      alignment: 9
+      pivot: {x: 0.7303391, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b1a2afca79d7900800000000000000
+      internalID: 683869487617415958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_19
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 4695
+        width: 675
+        height: 1097
+      alignment: 9
+      pivot: {x: 0.7278378, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d209f822a58f310800000000000000
+      internalID: 1438999185428852013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_20
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 4699
+        width: 680
+        height: 1093
+      alignment: 9
+      pivot: {x: 0.6674187, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29596d369cc112b40800000000000000
+      internalID: 5413639878365058450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_21
+      rect:
+        serializedVersion: 2
+        x: 5641
+        y: 4691
+        width: 692
+        height: 1093
+      alignment: 9
+      pivot: {x: 0.63565326, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64b6fbe9390e890800000000000000
+      internalID: -7430777075135723828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_22
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 4700
+        width: 696
+        height: 1093
+      alignment: 9
+      pivot: {x: 0.6262642, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99d42f6a31b1fd40800000000000000
+      internalID: 5616465074838624667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_23
+      rect:
+        serializedVersion: 2
+        x: 7796
+        y: 4699
+        width: 697
+        height: 1093
+      alignment: 9
+      pivot: {x: 0.58883077, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4eb9e64aca05550800000000000000
+      internalID: 6147603313591051506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_24
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3531
+        width: 696
+        height: 1089
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d689078fe33f7fae0800000000000000
+      internalID: -1515475297805232019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_25
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 3531
+        width: 697
+        height: 1085
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75871d07889b3a540800000000000000
+      internalID: 5018058405480331351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_26
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 3531
+        width: 693
+        height: 1089
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75737f0afdc8249b0800000000000000
+      internalID: -5097356936123828393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_27
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 3531
+        width: 684
+        height: 1093
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1039c2f80a8fe900800000000000000
+      internalID: 715942636812840988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_28
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 3531
+        width: 676
+        height: 1097
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c261746ee325a7780800000000000000
+      internalID: -8684538501325711828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_29
+      rect:
+        serializedVersion: 2
+        x: 5709
+        y: 3531
+        width: 668
+        height: 1097
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad0e8f00aad990a0800000000000000
+      internalID: -6874222975213761113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_30
+      rect:
+        serializedVersion: 2
+        x: 6781
+        y: 3531
+        width: 660
+        height: 1101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d602314a63ff7550800000000000000
+      internalID: 6160910452952008407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_31
+      rect:
+        serializedVersion: 2
+        x: 7854
+        y: 3531
+        width: 655
+        height: 1105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a4ffc80c68aec20800000000000000
+      internalID: 3236547443776506369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_32
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2363
+        width: 646
+        height: 1106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccaf0a4990789d80800000000000000
+      internalID: -8243715314226844475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_33
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 2363
+        width: 634
+        height: 1110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efddcaa7fbdab2e90800000000000000
+      internalID: -7049349753809871362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_34
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 2359
+        width: 630
+        height: 1118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1225e4eb773be99b0800000000000000
+      internalID: -5071418803497315807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_35
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 2359
+        width: 617
+        height: 1118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b28dc9174f52e90800000000000000
+      internalID: -7050960872778749055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_36
+      rect:
+        serializedVersion: 2
+        x: 4684
+        y: 2359
+        width: 612
+        height: 1122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efb9e1f1eeb5fe60800000000000000
+      internalID: 7995506591101730792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_37
+      rect:
+        serializedVersion: 2
+        x: 5759
+        y: 2355
+        width: 605
+        height: 1126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f411b1b9fa4b1f8c0800000000000000
+      internalID: -3967191130422177457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_38
+      rect:
+        serializedVersion: 2
+        x: 6836
+        y: 2355
+        width: 592
+        height: 1130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd9330c8bbea4f10800000000000000
+      internalID: 2254873742183472626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_39
+      rect:
+        serializedVersion: 2
+        x: 7912
+        y: 2355
+        width: 584
+        height: 1130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddffcfa15e87a25b0800000000000000
+      internalID: -5392364678427115555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_40
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1187
+        width: 576
+        height: 1134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d14506868019900800000000000000
+      internalID: 689341462350142845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_41
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1187
+        width: 580
+        height: 1138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b73a13aea729530800000000000000
+      internalID: 3860282976883669842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_42
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1183
+        width: 580
+        height: 1143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9949f9577871f7b0800000000000000
+      internalID: -5192236441375520355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_43
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 1183
+        width: 584
+        height: 1147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f632747e2d7c06d0800000000000000
+      internalID: -3022903611396835594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_44
+      rect:
+        serializedVersion: 2
+        x: 4696
+        y: 1183
+        width: 583
+        height: 1147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc783301a6ef1920800000000000000
+      internalID: 2963340659051232511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_45
+      rect:
+        serializedVersion: 2
+        x: 5763
+        y: 1183
+        width: 584
+        height: 1147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f457108aac5e7c80800000000000000
+      internalID: -8323113173970889481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_46
+      rect:
+        serializedVersion: 2
+        x: 6825
+        y: 1192
+        width: 586
+        height: 1151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19fe3ef77aece7e0800000000000000
+      internalID: -1734753955356935906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_47
+      rect:
+        serializedVersion: 2
+        x: 7891
+        y: 1187
+        width: 586
+        height: 1149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d054b640b59948370800000000000000
+      internalID: 8323946627482731789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_48
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 19
+        width: 588
+        height: 1151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a7f0eeff919a450800000000000000
+      internalID: 6100435757251394104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4the fall_49
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 19
+        width: 588
+        height: 1154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14da01c1e4c5abbe0800000000000000
+      internalID: -1460753638580245183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

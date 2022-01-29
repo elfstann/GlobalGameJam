@@ -1,7 +1,157 @@
 fileFormatVersion: 2
 guid: f43321b6a0414644e94c5c38776ade04
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4167702903438651807
+    second: rabbit tackle_0
+  - first:
+      213: 526075551424551263
+    second: rabbit tackle_1
+  - first:
+      213: 8788201128503367321
+    second: rabbit tackle_2
+  - first:
+      213: 7854451188768264212
+    second: rabbit tackle_3
+  - first:
+      213: 2447521222904332839
+    second: rabbit tackle_4
+  - first:
+      213: -7172267522928594948
+    second: rabbit tackle_5
+  - first:
+      213: -2215768793358443858
+    second: rabbit tackle_6
+  - first:
+      213: -5168217810945073652
+    second: rabbit tackle_7
+  - first:
+      213: 2520863013352354169
+    second: rabbit tackle_8
+  - first:
+      213: -7563269449338231692
+    second: rabbit tackle_9
+  - first:
+      213: -6993803347184888501
+    second: rabbit tackle_10
+  - first:
+      213: 6689007867978754484
+    second: rabbit tackle_11
+  - first:
+      213: -1678078598055926391
+    second: rabbit tackle_12
+  - first:
+      213: 244115972865078934
+    second: rabbit tackle_13
+  - first:
+      213: -4941620238989828397
+    second: rabbit tackle_14
+  - first:
+      213: 8587261789486586104
+    second: rabbit tackle_15
+  - first:
+      213: 5682207864234964929
+    second: rabbit tackle_16
+  - first:
+      213: -5653857643793111756
+    second: rabbit tackle_17
+  - first:
+      213: 3461935190916900330
+    second: rabbit tackle_18
+  - first:
+      213: 3279585800961234362
+    second: rabbit tackle_19
+  - first:
+      213: 762747190253767713
+    second: rabbit tackle_20
+  - first:
+      213: -6845472959310908855
+    second: rabbit tackle_21
+  - first:
+      213: 317414260985977817
+    second: rabbit tackle_22
+  - first:
+      213: -5429879904407834928
+    second: rabbit tackle_23
+  - first:
+      213: -2075012954550641009
+    second: rabbit tackle_24
+  - first:
+      213: 8116207349111871376
+    second: rabbit tackle_25
+  - first:
+      213: -4788265788174846384
+    second: rabbit tackle_26
+  - first:
+      213: 809958466491552941
+    second: rabbit tackle_27
+  - first:
+      213: -5801169812146221249
+    second: rabbit tackle_28
+  - first:
+      213: 9048289288160392778
+    second: rabbit tackle_29
+  - first:
+      213: -8248123068221550911
+    second: rabbit tackle_30
+  - first:
+      213: -3147228237675519294
+    second: rabbit tackle_31
+  - first:
+      213: -4072113769815648328
+    second: rabbit tackle_32
+  - first:
+      213: -7602178115092544275
+    second: rabbit tackle_33
+  - first:
+      213: 1550077392450797852
+    second: rabbit tackle_34
+  - first:
+      213: 9164276989306265515
+    second: rabbit tackle_35
+  - first:
+      213: 5164381990443617674
+    second: rabbit tackle_36
+  - first:
+      213: 5995898273748404872
+    second: rabbit tackle_37
+  - first:
+      213: 1131669876889262510
+    second: rabbit tackle_38
+  - first:
+      213: -2723417061842276769
+    second: rabbit tackle_39
+  - first:
+      213: 6819997394991777787
+    second: rabbit tackle_40
+  - first:
+      213: -2207702366491266299
+    second: rabbit tackle_41
+  - first:
+      213: 3272446781242053677
+    second: rabbit tackle_42
+  - first:
+      213: -2817519527242058933
+    second: rabbit tackle_43
+  - first:
+      213: -23191252176871647
+    second: rabbit tackle_44
+  - first:
+      213: 2679015275456092910
+    second: rabbit tackle_45
+  - first:
+      213: 4015249281253216192
+    second: rabbit tackle_46
+  - first:
+      213: -5002762918521468423
+    second: rabbit tackle_47
+  - first:
+      213: 5687818387586943036
+    second: rabbit tackle_48
+  - first:
+      213: -3932643829631599512
+    second: rabbit tackle_49
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +239,1057 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: rabbit tackle_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 7311
+        width: 597
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9133d095b7a6d930800000000000000
+      internalID: 4167702903438651807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_1
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 7311
+        width: 593
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f599daf3deefc4700800000000000000
+      internalID: 526075551424551263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_2
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 7307
+        width: 594
+        height: 1156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996512f4d56f5f970800000000000000
+      internalID: 8788201128503367321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_3
+      rect:
+        serializedVersion: 2
+        x: 3934
+        y: 7306
+        width: 594
+        height: 1155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4105d24ddbd900d60800000000000000
+      internalID: 7854451188768264212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_4
+      rect:
+        serializedVersion: 2
+        x: 5155
+        y: 7306
+        width: 594
+        height: 1155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722417fa59757f120800000000000000
+      internalID: 2447521222904332839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_5
+      rect:
+        serializedVersion: 2
+        x: 6372
+        y: 7302
+        width: 598
+        height: 1154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff25cd20bcf67c90800000000000000
+      internalID: -7172267522928594948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_6
+      rect:
+        serializedVersion: 2
+        x: 7593
+        y: 7302
+        width: 594
+        height: 1149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa5977a5020041e0800000000000000
+      internalID: -2215768793358443858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_7
+      rect:
+        serializedVersion: 2
+        x: 8811
+        y: 7300
+        width: 602
+        height: 1150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e95c8884dc648b0800000000000000
+      internalID: -5168217810945073652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 6090
+        width: 617
+        height: 1144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971b946fd87ebf220800000000000000
+      internalID: 2520863013352354169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_9
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 6085
+        width: 632
+        height: 1145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47461abf18ed90790800000000000000
+      internalID: -7563269449338231692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_10
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 6085
+        width: 651
+        height: 1140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b455b1619e401fe90800000000000000
+      internalID: -6993803347184888501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_11
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 6085
+        width: 665
+        height: 1135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9aaae473124dc50800000000000000
+      internalID: 6689007867978754484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_12
+      rect:
+        serializedVersion: 2
+        x: 5103
+        y: 6082
+        width: 680
+        height: 1133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e0b9e76446b8e0800000000000000
+      internalID: -1678078598055926391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_13
+      rect:
+        serializedVersion: 2
+        x: 6319
+        y: 6080
+        width: 699
+        height: 1126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6963f961f26436300800000000000000
+      internalID: 244115972865078934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_14
+      rect:
+        serializedVersion: 2
+        x: 7538
+        y: 6080
+        width: 716
+        height: 1121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de51201396db6bb0800000000000000
+      internalID: -4941620238989828397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_15
+      rect:
+        serializedVersion: 2
+        x: 8757
+        y: 6080
+        width: 732
+        height: 1111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f812aba9151c2770800000000000000
+      internalID: 8587261789486586104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 4869
+        width: 750
+        height: 1106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f7a762f14bde40800000000000000
+      internalID: 5682207864234964929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_17
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 4869
+        width: 767
+        height: 1101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435a51bad667981b0800000000000000
+      internalID: -5653857643793111756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_18
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 4869
+        width: 782
+        height: 1091
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5a60ac6b34b0030800000000000000
+      internalID: 3461935190916900330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_19
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 4867
+        width: 795
+        height: 1089
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab595b4f8ed638d20800000000000000
+      internalID: 3279585800961234362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_20
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 4864
+        width: 810
+        height: 1087
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cc0804782d59a00800000000000000
+      internalID: 762747190253767713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_21
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 4864
+        width: 828
+        height: 1087
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9423bb4cc9efff0a0800000000000000
+      internalID: -6845472959310908855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_22
+      rect:
+        serializedVersion: 2
+        x: 7483
+        y: 4864
+        width: 838
+        height: 1082
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db56b0b69ea76400800000000000000
+      internalID: 317414260985977817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_23
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 4864
+        width: 852
+        height: 1082
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de2db4eef035a4b0800000000000000
+      internalID: -5429879904407834928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3657
+        width: 866
+        height: 1073
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8edca336b21433e0800000000000000
+      internalID: -2075012954550641009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_25
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 3657
+        width: 881
+        height: 1072
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0975a3f159f82a070800000000000000
+      internalID: 8116207349111871376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_26
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 3657
+        width: 891
+        height: 1067
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056bead82a9ac8db0800000000000000
+      internalID: -4788265788174846384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_27
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 3657
+        width: 900
+        height: 1063
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da49c061fec8d3b00800000000000000
+      internalID: 809958466491552941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_28
+      rect:
+        serializedVersion: 2
+        x: 4994
+        y: 3657
+        width: 918
+        height: 1056
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f0e41baca1e7fa0800000000000000
+      internalID: -5801169812146221249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_29
+      rect:
+        serializedVersion: 2
+        x: 6214
+        y: 3657
+        width: 929
+        height: 1049
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46b5cdea2bf19d70800000000000000
+      internalID: 9048289288160392778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_30
+      rect:
+        serializedVersion: 2
+        x: 7435
+        y: 3657
+        width: 939
+        height: 1044
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce03f615c7c88d80800000000000000
+      internalID: -8248123068221550911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_31
+      rect:
+        serializedVersion: 2
+        x: 8657
+        y: 3657
+        width: 947
+        height: 1039
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2a542b79cc254d0800000000000000
+      internalID: -3147228237675519294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2450
+        width: 956
+        height: 1029
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b75921f912fc77c0800000000000000
+      internalID: -4072113769815648328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_33
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2450
+        width: 963
+        height: 1020
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de409aa4843af7690800000000000000
+      internalID: -7602178115092544275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_34
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 2450
+        width: 972
+        height: 1015
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11c46ffc2bf28510800000000000000
+      internalID: 1550077392450797852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_35
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 2453
+        width: 982
+        height: 1003
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafd2ea0e5d0e2f70800000000000000
+      internalID: 9164276989306265515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_36
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 2455
+        width: 991
+        height: 991
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d01d8ee029ba740800000000000000
+      internalID: 5164381990443617674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_37
+      rect:
+        serializedVersion: 2
+        x: 6185
+        y: 2455
+        width: 1001
+        height: 986
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ac62c56b5b53350800000000000000
+      internalID: 5995898273748404872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_38
+      rect:
+        serializedVersion: 2
+        x: 7406
+        y: 2455
+        width: 1016
+        height: 977
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea99ef6d1cf74bf00800000000000000
+      internalID: 1131669876889262510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_39
+      rect:
+        serializedVersion: 2
+        x: 8632
+        y: 2459
+        width: 1030
+        height: 963
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e27ad8c9a743ad0800000000000000
+      internalID: -2723417061842276769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_40
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1252
+        width: 1044
+        height: 949
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf703913f7f75ae50800000000000000
+      internalID: 6819997394991777787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_41
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1252
+        width: 1058
+        height: 939
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503bf73056aac51e0800000000000000
+      internalID: -2207702366491266299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_42
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 1253
+        width: 1076
+        height: 929
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d249d4662011a6d20800000000000000
+      internalID: 3272446781242053677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_43
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1257
+        width: 1087
+        height: 915
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43b207fae826e8d0800000000000000
+      internalID: -2817519527242058933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_44
+      rect:
+        serializedVersion: 2
+        x: 4945
+        y: 1257
+        width: 1101
+        height: 903
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fd914ddab9daff0800000000000000
+      internalID: -23191252176871647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_45
+      rect:
+        serializedVersion: 2
+        x: 6171
+        y: 1262
+        width: 1111
+        height: 886
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eead761f236cd2520800000000000000
+      internalID: 2679015275456092910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_46
+      rect:
+        serializedVersion: 2
+        x: 7397
+        y: 1262
+        width: 1125
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf8db592f709b730800000000000000
+      internalID: 4015249281253216192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_47
+      rect:
+        serializedVersion: 2
+        x: 8623
+        y: 1262
+        width: 1139
+        height: 862
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f90802a1ad929ab0800000000000000
+      internalID: -5002762918521468423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 1149
+        height: 903
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c380e0b20b03fee40800000000000000
+      internalID: 5687818387586943036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit tackle_49
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 0
+        width: 1580
+        height: 888
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c3da2e5417c69c0800000000000000
+      internalID: -3932643829631599512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

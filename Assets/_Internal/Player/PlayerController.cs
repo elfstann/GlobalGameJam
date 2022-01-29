@@ -6,12 +6,13 @@ using UnityEngine.InputSystem;
 
 public enum HeroType
 {
-    Rabbit,
-    Bear
+    Rabbit = 0,
+    Bear = 1
 }
 public class PlayerController : MonoBehaviour
 {
-    [HideInInspector] public HeroType currentHero = HeroType.Bear;
+    //[HideInInspector] 
+    public HeroType currentHero = HeroType.Bear;
     
     public Animator bearAnimator;
     public Animator rabbitAnimator;
@@ -110,8 +111,9 @@ public class PlayerController : MonoBehaviour
     private void Animations()
     {
         Animator currentAnimator = currentHero == HeroType.Bear ? bearAnimator : rabbitAnimator;
-        rabbitAnimator.SetBool("Move", rigidBody.velocity.sqrMagnitude > 0.001f && IsLanded(player.position));
-        rabbitAnimator.SetFloat("Speed", rigidBody.velocity.magnitude / maxSpeed);
+        currentAnimator.SetBool("Landed" , IsLanded(player.position));
+        currentAnimator.SetBool("Move", rigidBody.velocity.sqrMagnitude > 0.001f && IsLanded(player.position));
+        currentAnimator.SetFloat("Speed", rigidBody.velocity.magnitude / maxSpeed);
     }
 
     private void FixedUpdate()
@@ -126,6 +128,7 @@ public class PlayerController : MonoBehaviour
         input.Player.Jump.Enable();
         input.Player.Sprint.Enable();
         input.Player.Fire.Enable();
+        input.Player.SwapHero.Enable();
     }
 
     private void SubscribeAllActions()
@@ -135,6 +138,15 @@ public class PlayerController : MonoBehaviour
         input.Player.Jump.performed += Jump;
         input.Player.Sprint.performed += Sprint;
         input.Player.Fire.performed += Fire;
+        input.Player.SwapHero.performed += SwapHero;
+    }
+
+    private void SwapHero(InputAction.CallbackContext obj)
+    {
+        currentHero = (HeroType) (1 - ((int) currentHero)); 
+        Debug.Log(currentHero);
+        rabbitAnimator.gameObject.SetActive(currentHero == HeroType.Rabbit);
+        bearAnimator.gameObject.SetActive(currentHero == HeroType.Bear);
     }
 
     private void Fire(InputAction.CallbackContext obj)
@@ -162,9 +174,20 @@ public class PlayerController : MonoBehaviour
         if (!obj.ReadValueAsButton()) return;
         if(!IsLanded(player.position) && !IsLanded(_positionsSnapshot.Peek().Item1)) return;
         
+        if (currentHero == HeroType.Rabbit)   
+            StartCoroutine(StartJump());
+    }
+
+    private IEnumerator StartJump()
+    {
+        rabbitAnimator.SetTrigger("Jump");
+
+        yield return new WaitForSeconds(1f / 6f);
+        
         float startYSpeed = Mathf.Sqrt(2 * Mathf.Abs(Physics2D.gravity.y) * jumpHeight);
         Vector2 startVelocity = -startYSpeed * Physics2D.gravity.normalized;
-            
+        
+        
         var rigidBodyVelocity = rigidBody.velocity;
         if (IsLanded(_positionsSnapshot.Peek().Item1) && !IsLanded(player.position))
             rigidBodyVelocity.y = startVelocity.y;
