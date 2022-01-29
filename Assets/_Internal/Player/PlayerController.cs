@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class PlayerController : Singleton<PlayerController>
 {
     [Space]
@@ -19,7 +20,8 @@ public class PlayerController : Singleton<PlayerController>
     public Rigidbody2D rigidBody;
     public Transform player;
     public CinemachineVirtualCamera cinemachineVirtualCamera;
-
+    public Animator bearAnimator;
+    public Animator rabbitAnimator;
     public LayerMask groundMask;
 
     public AnimationCurve accelerationCurve;
@@ -111,11 +113,30 @@ public class PlayerController : Singleton<PlayerController>
 
     private void Update()
     {
-        _positionsSnapshot.Enqueue((player.position, Time.time));
+        if (rigidBody.velocity.x < -0.01)
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        else if (rigidBody.velocity.x > 0.01)
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        
+        _positionsSnapshot.Enqueue((player.position , Time.time));
+
         if (Time.time - _positionsSnapshot.Peek().Item2 >= safeJumpDelay)
             _positionsSnapshot.Dequeue();
 
         DecreaseShakeTime();
+    }
+
+    private void LateUpdate()
+    {
+        Animations();
+    }
+
+    private void Animations()
+    {
+        Animator currentAnimator = currentPlayerState == PlayerState.Bear ? bearAnimator : rabbitAnimator;
+        currentAnimator.SetBool("Landed" , IsLanded(player.position));
+        currentAnimator.SetBool("Move", rigidBody.velocity.sqrMagnitude > 0.001f && IsLanded(player.position));
+        currentAnimator.SetFloat("Speed", rigidBody.velocity.magnitude / maxSpeed);
     }
 
     private void FixedUpdate()
@@ -124,12 +145,36 @@ public class PlayerController : Singleton<PlayerController>
         _objectUnder = Physics2D.Raycast(player.position, Physics2D.gravity.normalized, underObjectFindDistance, groundMask);
     }
 
+    private void EnableAllActions()
+    {
+        input.Player.Move.Enable();   
+        input.Player.Jump.Enable();
+        input.Player.Sprint.Enable();
+        input.Player.Fire.Enable();
+        input.Player.SwapHero.Enable();
+    }
+
     private void SubscribeAllActions()
     {
         input.Player.Move.started += StartMovePlayer;
         input.Player.Move.canceled += StartMovePlayer;
         input.Player.Jump.performed += Jump;
         input.Player.Sprint.performed += Sprint;
+        input.Player.Fire.performed += Fire;
+        input.Player.SwapHero.performed += SwapHero;
+    }
+
+    private void SwapHero(InputAction.CallbackContext obj)
+    {
+        currentPlayerState = (PlayerState) (1 - ((int)currentPlayerState)); 
+        Debug.Log(currentPlayerState);
+        rabbitAnimator.gameObject.SetActive(currentPlayerState == PlayerState.Rabbit);
+        bearAnimator.gameObject.SetActive(currentPlayerState == PlayerState.Bear);
+    }
+
+    private void Fire(InputAction.CallbackContext obj)
+    {
+        if (obj.ReadValueAsButton() && currentPlayerState == PlayerState.Bear) bearAnimator.SetTrigger("Attack");
     }
 
     private void Sprint(InputAction.CallbackContext obj)
@@ -146,22 +191,27 @@ public class PlayerController : Singleton<PlayerController>
         Debug.Log(sprintingPressd);
     }
 
-    private void EnableAllActions()
-    {
-        input.Player.Move.Enable();
-        input.Player.Jump.Enable();
-        input.Player.Sprint.Enable();
-    }
-
     private void Jump(InputAction.CallbackContext obj)
     {
         if (Time.time - _lastJumpTime < jumpCooldown) return;
         if (!obj.ReadValueAsButton()) return;
-        if (!IsLanded(player.position) && !IsLanded(_positionsSnapshot.Peek().Item1)) return;
 
+        if(!IsLanded(player.position) && !IsLanded(_positionsSnapshot.Peek().Item1)) return;
+        
+        if (currentPlayerState == PlayerState.Rabbit)   
+            StartCoroutine(StartJump());
+    }
+
+    private IEnumerator StartJump()
+    {
+        rabbitAnimator.SetTrigger("Jump");
+
+        yield return new WaitForSeconds(1f / 6f);
+        
         float startYSpeed = Mathf.Sqrt(2 * Mathf.Abs(Physics2D.gravity.y) * jumpHeight);
         Vector2 startVelocity = -startYSpeed * Physics2D.gravity.normalized;
-
+        
+        
         var rigidBodyVelocity = rigidBody.velocity;
         if (IsLanded(_positionsSnapshot.Peek().Item1) && !IsLanded(player.position))
             rigidBodyVelocity.y = startVelocity.y;

@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 5a5ce2d82752b3e4b9d5a3b5c9e8308d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8815205950942352614
+    second: bear claw strike_0
+  - first:
+      213: 4393445703296314856
+    second: bear claw strike_1
+  - first:
+      213: -6389358455031921814
+    second: bear claw strike_2
+  - first:
+      213: 3752276782617532372
+    second: bear claw strike_3
+  - first:
+      213: -7418730978908470116
+    second: bear claw strike_4
+  - first:
+      213: 1481824648918998902
+    second: bear claw strike_5
+  - first:
+      213: -6949295027099872235
+    second: bear claw strike_6
+  - first:
+      213: -5448298957737385965
+    second: bear claw strike_7
+  - first:
+      213: 3188106246522482292
+    second: bear claw strike_8
+  - first:
+      213: -7243481222077954950
+    second: bear claw strike_9
+  - first:
+      213: -5759474294910528370
+    second: bear claw strike_10
+  - first:
+      213: -8139384050493789142
+    second: bear claw strike_11
+  - first:
+      213: -4821655251003514475
+    second: bear claw strike_12
+  - first:
+      213: 8533732591001134956
+    second: bear claw strike_13
+  - first:
+      213: 7612873460170089395
+    second: bear claw strike_14
+  - first:
+      213: -386128248243877189
+    second: bear claw strike_15
+  - first:
+      213: -6770991697167679237
+    second: bear claw strike_16
+  - first:
+      213: 7666168262455352299
+    second: bear claw strike_17
+  - first:
+      213: 241105663366445402
+    second: bear claw strike_18
+  - first:
+      213: 6340288913717181392
+    second: bear claw strike_19
+  - first:
+      213: 6101141825490516067
+    second: bear claw strike_20
+  - first:
+      213: -5559796410991722324
+    second: bear claw strike_21
+  - first:
+      213: -7410602610725656254
+    second: bear claw strike_22
+  - first:
+      213: 3546880138010378920
+    second: bear claw strike_23
+  - first:
+      213: -7112076478594587355
+    second: bear claw strike_24
+  - first:
+      213: -5449040920904003955
+    second: bear claw strike_25
+  - first:
+      213: -1899680035074962049
+    second: bear claw strike_26
+  - first:
+      213: -2454859408022103031
+    second: bear claw strike_27
+  - first:
+      213: -1530061556690314081
+    second: bear claw strike_28
+  - first:
+      213: -4396793646310808006
+    second: bear claw strike_29
+  - first:
+      213: -1609828475359820682
+    second: bear claw strike_30
+  - first:
+      213: -1007481727408236635
+    second: bear claw strike_31
+  - first:
+      213: -1589241972725464266
+    second: bear claw strike_32
+  - first:
+      213: -4175402458807508067
+    second: bear claw strike_33
+  - first:
+      213: -4747159664683434214
+    second: bear claw strike_34
+  - first:
+      213: -5066467090823344224
+    second: bear claw strike_35
+  - first:
+      213: -5639367234337220661
+    second: bear claw strike_36
+  - first:
+      213: -402770830122855263
+    second: bear claw strike_37
+  - first:
+      213: -7024640553952935751
+    second: bear claw strike_38
+  - first:
+      213: 5173841014453580950
+    second: bear claw strike_39
+  - first:
+      213: -2931384568759933079
+    second: bear claw strike_40
+  - first:
+      213: -6500777383957545214
+    second: bear claw strike_41
+  - first:
+      213: -2948062755974989237
+    second: bear claw strike_42
+  - first:
+      213: 4030305324205585925
+    second: bear claw strike_43
+  - first:
+      213: 1523094522325014005
+    second: bear claw strike_44
+  - first:
+      213: -681634707909997419
+    second: bear claw strike_45
+  - first:
+      213: 412904641463555024
+    second: bear claw strike_46
+  - first:
+      213: -8859106950457288613
+    second: bear claw strike_47
+  - first:
+      213: -6719411228601183956
+    second: bear claw strike_48
+  - first:
+      213: 7667285725545291459
+    second: bear claw strike_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bear claw strike_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 5694
+        width: 543
+        height: 956
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1beb2084e81aa580800000000000000
+      internalID: -8815205950942352614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_1
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 5694
+        width: 548
+        height: 956
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed61f4f697a8fc30800000000000000
+      internalID: 4393445703296314856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_2
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 5696
+        width: 562
+        height: 870
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a630f2166507457a0800000000000000
+      internalID: -6389358455031921814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_3
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 5694
+        width: 600
+        height: 874
+      alignment: 9
+      pivot: {x: 0.48, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d71dd67ad3c21430800000000000000
+      internalID: 3752276782617532372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_4
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 5694
+        width: 642
+        height: 874
+      alignment: 9
+      pivot: {x: 0.46, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9489f51b7f5b0990800000000000000
+      internalID: -7418730978908470116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_5
+      rect:
+        serializedVersion: 2
+        x: 5011
+        y: 5694
+        width: 673
+        height: 874
+      alignment: 9
+      pivot: {x: 0.43536186, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f1c3acaaf709410800000000000000
+      internalID: 1481824648918998902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_6
+      rect:
+        serializedVersion: 2
+        x: 5981
+        y: 5694
+        width: 695
+        height: 874
+      alignment: 9
+      pivot: {x: 0.4402105, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514d256edf42f8f90800000000000000
+      internalID: -6949295027099872235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_7
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 5694
+        width: 714
+        height: 874
+      alignment: 9
+      pivot: {x: 0.4354361, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310aee9d6f0c364b0800000000000000
+      internalID: -5448298957737385965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4744
+        width: 726
+        height: 874
+      alignment: 9
+      pivot: {x: 0.43178052, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e2d2a6dbd6e3c20800000000000000
+      internalID: 3188106246522482292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_9
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 4744
+        width: 730
+        height: 874
+      alignment: 9
+      pivot: {x: 0.43714347, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74c4d4c43cf97b90800000000000000
+      internalID: -7243481222077954950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_10
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 4744
+        width: 737
+        height: 874
+      alignment: 9
+      pivot: {x: 0.4380542, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e845ddec4ac3210b0800000000000000
+      internalID: -5759474294910528370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_11
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 4744
+        width: 733
+        height: 874
+      alignment: 9
+      pivot: {x: 0.45847744, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c66d394591b0f80800000000000000
+      internalID: -8139384050493789142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_12
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 4744
+        width: 726
+        height: 874
+      alignment: 9
+      pivot: {x: 0.4670605, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591e98e681a061db0800000000000000
+      internalID: -4821655251003514475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_13
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 4744
+        width: 718
+        height: 874
+      alignment: 9
+      pivot: {x: 0.47698823, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67ebcee398ed6670800000000000000
+      internalID: 8533732591001134956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_14
+      rect:
+        serializedVersion: 2
+        x: 5939
+        y: 4744
+        width: 706
+        height: 874
+      alignment: 9
+      pivot: {x: 0.49384114, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3ef69c31c56a960800000000000000
+      internalID: 7612873460170089395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_15
+      rect:
+        serializedVersion: 2
+        x: 6907
+        y: 4744
+        width: 687
+        height: 874
+      alignment: 9
+      pivot: {x: 0.5084422, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba0ead676234aaf0800000000000000
+      internalID: -386128248243877189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 3794
+        width: 665
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5464424, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf08339fcea9802a0800000000000000
+      internalID: -6770991697167679237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_17
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3794
+        width: 634
+        height: 870
+      alignment: 9
+      pivot: {x: 0.56845796, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb5608ea63b36a60800000000000000
+      internalID: 7666168262455352299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_18
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 3794
+        width: 596
+        height: 870
+      alignment: 9
+      pivot: {x: 0.624413, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59ba4ac254985300800000000000000
+      internalID: 241105663366445402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_19
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 3794
+        width: 566
+        height: 867
+      alignment: 9
+      pivot: {x: 0.66293585, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbb57bbc2b3df750800000000000000
+      internalID: 6340288913717181392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_20
+      rect:
+        serializedVersion: 2
+        x: 3962
+        y: 3794
+        width: 567
+        height: 867
+      alignment: 9
+      pivot: {x: 0.6829074, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368f3a04a2c9ba450800000000000000
+      internalID: 6101141825490516067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_21
+      rect:
+        serializedVersion: 2
+        x: 4932
+        y: 3794
+        width: 566
+        height: 867
+      alignment: 9
+      pivot: {x: 0.68078744, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0c85b0f92a7d2b0800000000000000
+      internalID: -5559796410991722324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_22
+      rect:
+        serializedVersion: 2
+        x: 5897
+        y: 3794
+        width: 570
+        height: 863
+      alignment: 9
+      pivot: {x: 0.6916478, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2496d184030482990800000000000000
+      internalID: -7410602610725656254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_23
+      rect:
+        serializedVersion: 2
+        x: 6866
+        y: 3794
+        width: 569
+        height: 863
+      alignment: 9
+      pivot: {x: 0.7020678, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a24ffe71bc093130800000000000000
+      internalID: 3546880138010378920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2844
+        width: 566
+        height: 859
+      alignment: 9
+      pivot: {x: 0.709779, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52565f5cf14dc4d90800000000000000
+      internalID: -7112076478594587355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_25
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2844
+        width: 589
+        height: 859
+      alignment: 9
+      pivot: {x: 0.7248475, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e03f6172e1164b0800000000000000
+      internalID: -5449040920904003955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_26
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 2846
+        width: 577
+        height: 867
+      alignment: 9
+      pivot: {x: 0.6319104, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d8472b21bf2a5e0800000000000000
+      internalID: -1899680035074962049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_27
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 2844
+        width: 570
+        height: 878
+      alignment: 9
+      pivot: {x: 0.5587535, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c1153ff569eedd0800000000000000
+      internalID: -2454859408022103031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_28
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 2844
+        width: 642
+        height: 889
+      alignment: 9
+      pivot: {x: 0.40752774, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c1efcee1124cae0800000000000000
+      internalID: -1530061556690314081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_29
+      rect:
+        serializedVersion: 2
+        x: 5110
+        y: 2844
+        width: 680
+        height: 889
+      alignment: 9
+      pivot: {x: 0.30076545, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3623f059737bf2c0800000000000000
+      internalID: -4396793646310808006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_30
+      rect:
+        serializedVersion: 2
+        x: 6095
+        y: 2844
+        width: 721
+        height: 882
+      alignment: 9
+      pivot: {x: 0.26142415, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6748ed8e78db8a9e0800000000000000
+      internalID: -1609828475359820682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_31
+      rect:
+        serializedVersion: 2
+        x: 7064
+        y: 2844
+        width: 720
+        height: 885
+      alignment: 9
+      pivot: {x: 0.2718994, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a79220f4b4b402f0800000000000000
+      internalID: -1007481727408236635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_32
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1894
+        width: 714
+        height: 886
+      alignment: 9
+      pivot: {x: 0.27368963, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633ce8198d0e1f9e0800000000000000
+      internalID: -1589241972725464266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_33
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1894
+        width: 711
+        height: 889
+      alignment: 9
+      pivot: {x: 0.28590962, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d936c70069dfd06c0800000000000000
+      internalID: -4175402458807508067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_34
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1894
+        width: 703
+        height: 893
+      alignment: 9
+      pivot: {x: 0.290212, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f3b7ebf63be1eb0800000000000000
+      internalID: -4747159664683434214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_35
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 1894
+        width: 695
+        height: 893
+      alignment: 9
+      pivot: {x: 0.2894584, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af8441360b40b9b0800000000000000
+      internalID: -5066467090823344224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_36
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 1894
+        width: 688
+        height: 893
+      alignment: 9
+      pivot: {x: 0.3038394, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc75a570161fcb1b0800000000000000
+      internalID: -5639367234337220661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_37
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 1894
+        width: 673
+        height: 897
+      alignment: 9
+      pivot: {x: 0.30647954, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a453a06012196af0800000000000000
+      internalID: -402770830122855263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_38
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 1894
+        width: 668
+        height: 897
+      alignment: 9
+      pivot: {x: 0.32192135, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b005d262a6738e90800000000000000
+      internalID: -7024640553952935751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_39
+      rect:
+        serializedVersion: 2
+        x: 7041
+        y: 1894
+        width: 657
+        height: 897
+      alignment: 9
+      pivot: {x: 0.3401574, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6943ade8dfc2dc740800000000000000
+      internalID: 5173841014453580950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_40
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 944
+        width: 649
+        height: 897
+      alignment: 9
+      pivot: {x: 0.32008368, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967a00f0441a157d0800000000000000
+      internalID: -2931384568759933079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_41
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 944
+        width: 630
+        height: 893
+      alignment: 9
+      pivot: {x: 0.37453768, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f3151796998c5a0800000000000000
+      internalID: -6500777383957545214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_42
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 942
+        width: 619
+        height: 893
+      alignment: 9
+      pivot: {x: 0.39407414, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a3d8efa806617d0800000000000000
+      internalID: -2948062755974989237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_43
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 944
+        width: 601
+        height: 893
+      alignment: 9
+      pivot: {x: 0.4118246, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506b3a1c6558ee730800000000000000
+      internalID: 4030305324205585925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_44
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 944
+        width: 588
+        height: 889
+      alignment: 9
+      pivot: {x: 0.4297332, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5968af56e132510800000000000000
+      internalID: 1523094522325014005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_45
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 944
+        width: 570
+        height: 889
+      alignment: 9
+      pivot: {x: 0.45430288, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c827838d85a86f0800000000000000
+      internalID: -681634707909997419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_46
+      rect:
+        serializedVersion: 2
+        x: 6026
+        y: 944
+        width: 555
+        height: 886
+      alignment: 9
+      pivot: {x: 0.48543692, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d39b80759eeab500800000000000000
+      internalID: 412904641463555024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_47
+      rect:
+        serializedVersion: 2
+        x: 6995
+        y: 944
+        width: 548
+        height: 882
+      alignment: 9
+      pivot: {x: 0.4864609, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b589cc68a212e0580800000000000000
+      internalID: -8859106950457288613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2
+        width: 547
+        height: 875
+      alignment: 9
+      pivot: {x: 0.4949664, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21947ba61bdfb2a0800000000000000
+      internalID: -6719411228601183956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear claw strike_49
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 0
+        width: 547
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cedc8e8ebba76a60800000000000000
+      internalID: 7667285725545291459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

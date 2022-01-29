@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: ac968e320309be943a90b7040a95e9dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4633473251875815122
+    second: bear walking_0
+  - first:
+      213: -5538562440779852588
+    second: bear walking_1
+  - first:
+      213: -4723710205934936144
+    second: bear walking_2
+  - first:
+      213: -8428290476105602944
+    second: bear walking_3
+  - first:
+      213: 1647709638331392093
+    second: bear walking_4
+  - first:
+      213: -1573897148668789381
+    second: bear walking_5
+  - first:
+      213: 8581925546506078293
+    second: bear walking_6
+  - first:
+      213: -114377652601602089
+    second: bear walking_7
+  - first:
+      213: -7850423767860647499
+    second: bear walking_8
+  - first:
+      213: -8134766884231978622
+    second: bear walking_9
+  - first:
+      213: 7431432130283784545
+    second: bear walking_10
+  - first:
+      213: -7133068527624418398
+    second: bear walking_11
+  - first:
+      213: 7547713502052567540
+    second: bear walking_12
+  - first:
+      213: 3650081704314748945
+    second: bear walking_13
+  - first:
+      213: 1654091933123788075
+    second: bear walking_14
+  - first:
+      213: -2548438272067921216
+    second: bear walking_15
+  - first:
+      213: -7874288410479508352
+    second: bear walking_16
+  - first:
+      213: -6093360869458489168
+    second: bear walking_17
+  - first:
+      213: -888863662260954416
+    second: bear walking_18
+  - first:
+      213: -5964015164576420919
+    second: bear walking_19
+  - first:
+      213: 8968262481519621720
+    second: bear walking_20
+  - first:
+      213: -2083614035067639107
+    second: bear walking_21
+  - first:
+      213: 9176518541104168890
+    second: bear walking_22
+  - first:
+      213: 2369968881005758363
+    second: bear walking_23
+  - first:
+      213: 4758228783269397244
+    second: bear walking_24
+  - first:
+      213: 7969906103507705519
+    second: bear walking_25
+  - first:
+      213: -6170353651612816166
+    second: bear walking_26
+  - first:
+      213: 3164430073342157357
+    second: bear walking_27
+  - first:
+      213: -994555678513750730
+    second: bear walking_28
+  - first:
+      213: 2658657149488682761
+    second: bear walking_29
+  - first:
+      213: -1272962528308829340
+    second: bear walking_30
+  - first:
+      213: 4676975880093784640
+    second: bear walking_31
+  - first:
+      213: 764576088118605181
+    second: bear walking_32
+  - first:
+      213: -7855570186876093012
+    second: bear walking_33
+  - first:
+      213: -7640621306866587924
+    second: bear walking_34
+  - first:
+      213: 6165204377455085246
+    second: bear walking_35
+  - first:
+      213: -1645830468055020555
+    second: bear walking_36
+  - first:
+      213: 2705193488249811477
+    second: bear walking_37
+  - first:
+      213: 251408330147052212
+    second: bear walking_38
+  - first:
+      213: -7114111383404223527
+    second: bear walking_39
+  - first:
+      213: 7191667363787775113
+    second: bear walking_40
+  - first:
+      213: 6227770443657011817
+    second: bear walking_41
+  - first:
+      213: -7170805629061003703
+    second: bear walking_42
+  - first:
+      213: 5070958604601260283
+    second: bear walking_43
+  - first:
+      213: -2488448175104803207
+    second: bear walking_44
+  - first:
+      213: -1423698121296768793
+    second: bear walking_45
+  - first:
+      213: 8744648420080876306
+    second: bear walking_46
+  - first:
+      213: 4796538165447895159
+    second: bear walking_47
+  - first:
+      213: -6833898907089130387
+    second: bear walking_48
+  - first:
+      213: 3379878775552885211
+    second: bear walking_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bear walking_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 5349
+        width: 443
+        height: 895
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2def4569f576d4040800000000000000
+      internalID: 4633473251875815122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_1
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 5349
+        width: 442
+        height: 895
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d41ffefdc21323b0800000000000000
+      internalID: -5538562440779852588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_2
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 5349
+        width: 445
+        height: 869
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf5c515892027eb0800000000000000
+      internalID: -4723710205934936144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_3
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 5349
+        width: 442
+        height: 869
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088eaeb8772b80b80800000000000000
+      internalID: -8428290476105602944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_4
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 5349
+        width: 445
+        height: 869
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50eab5af27ddd610800000000000000
+      internalID: 1647709638331392093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_5
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 5349
+        width: 442
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7db894d1e4682ae0800000000000000
+      internalID: -1573897148668789381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_6
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 5349
+        width: 448
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5584858c0df191770800000000000000
+      internalID: 8581925546506078293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_7
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 5349
+        width: 445
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df30768126a96ef0800000000000000
+      internalID: -114377652601602089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 4459
+        width: 448
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e16c2d21bd0390800000000000000
+      internalID: -7850423767860647499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 4459
+        width: 445
+        height: 873
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281edbe5e908b1f80800000000000000
+      internalID: -8134766884231978622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_10
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 4459
+        width: 448
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1694df92620c12760800000000000000
+      internalID: 7431432130283784545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_11
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 4459
+        width: 448
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab8d6c77ff320d90800000000000000
+      internalID: -7133068527624418398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_12
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 4456
+        width: 451
+        height: 878
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9434cc07ddeb860800000000000000
+      internalID: 7547713502052567540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_13
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 4456
+        width: 454
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11045da98f1b7a230800000000000000
+      internalID: 3650081704314748945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_14
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 4456
+        width: 455
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dbea379d384f610800000000000000
+      internalID: 1654091933123788075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_15
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 4456
+        width: 461
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca916dc4e022acd0800000000000000
+      internalID: -2548438272067921216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3566
+        width: 466
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084c4621968e8b290800000000000000
+      internalID: -7874288410479508352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_17
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 3566
+        width: 469
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b059afb298007ba0800000000000000
+      internalID: -6093360869458489168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_18
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 3566
+        width: 470
+        height: 884
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dade25653f1aa3f0800000000000000
+      internalID: -888863662260954416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_19
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 3566
+        width: 473
+        height: 884
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb21687ecf8b3da0800000000000000
+      internalID: -5964015164576420919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_20
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 3566
+        width: 482
+        height: 884
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856b077063ba57c70800000000000000
+      internalID: 8968262481519621720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_21
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 3566
+        width: 485
+        height: 887
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba66c613148513e0800000000000000
+      internalID: -2083614035067639107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_22
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 3566
+        width: 488
+        height: 887
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbc4d6efa895f70800000000000000
+      internalID: 9176518541104168890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_23
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 3566
+        width: 491
+        height: 887
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9704110422d3e020800000000000000
+      internalID: 2369968881005758363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2672
+        width: 495
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2cfc24edf980240800000000000000
+      internalID: 4758228783269397244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2672
+        width: 500
+        height: 893
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae5bc0ff5bca9e60800000000000000
+      internalID: 7969906103507705519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_26
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2672
+        width: 495
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6519bb008e5aa0800000000000000
+      internalID: -6170353651612816166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_27
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2672
+        width: 491
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d226f16c2605aeb20800000000000000
+      internalID: 3164430073342157357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_28
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 2672
+        width: 488
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d17d831e0a232f0800000000000000
+      internalID: -994555678513750730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_29
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 2672
+        width: 485
+        height: 887
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90753de579275e420800000000000000
+      internalID: 2658657149488682761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_30
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 2672
+        width: 482
+        height: 887
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463e4cf2357855ee0800000000000000
+      internalID: -1272962528308829340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_31
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 2672
+        width: 473
+        height: 884
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a5f0488c4f7e040800000000000000
+      internalID: 4676975880093784640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1782
+        width: 470
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d753118b6e15c9a00800000000000000
+      internalID: 764576088118605181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_33
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1782
+        width: 468
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadf91f19886bf290800000000000000
+      internalID: -7855570186876093012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_34
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1782
+        width: 466
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6afe4376f07f590800000000000000
+      internalID: -7640621306866587924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_35
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1782
+        width: 461
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6c4e577b43f8550800000000000000
+      internalID: 6165204377455085246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_36
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 1782
+        width: 455
+        height: 878
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbc017c8e5d829e0800000000000000
+      internalID: -1645830468055020555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_37
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1782
+        width: 454
+        height: 878
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51274d31527ca8520800000000000000
+      internalID: 2705193488249811477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_38
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 1782
+        width: 451
+        height: 878
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba3df35b8e2d7300800000000000000
+      internalID: 251408330147052212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_39
+      rect:
+        serializedVersion: 2
+        x: 3926
+        y: 1782
+        width: 448
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3e0a39369954d90800000000000000
+      internalID: -7114111383404223527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_40
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 889
+        width: 448
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c17514d5fedc360800000000000000
+      internalID: 7191667363787775113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_41
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 889
+        width: 445
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9626adce83c7d6650800000000000000
+      internalID: 6227770443657011817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_42
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 889
+        width: 448
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946827ed54e2c7c90800000000000000
+      internalID: -7170805629061003703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_43
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 889
+        width: 445
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8f7f9dbf9af5640800000000000000
+      internalID: 5070958604601260283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_44
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 889
+        width: 448
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eb8e0b191477dd0800000000000000
+      internalID: -2488448175104803207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_45
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 889
+        width: 442
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e017bc0a120e3ce0800000000000000
+      internalID: -1423698121296768793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_46
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 889
+        width: 445
+        height: 871
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf99c286b3b5970800000000000000
+      internalID: 8744648420080876306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_47
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 889
+        width: 442
+        height: 869
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778202f5c0ab09240800000000000000
+      internalID: 4796538165447895159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_48
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 445
+        height: 864
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca50cc62d1921a0800000000000000
+      internalID: -6833898907089130387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear walking_49
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 442
+        height: 864
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd146b8c6ddb7ee20800000000000000
+      internalID: 3379878775552885211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
