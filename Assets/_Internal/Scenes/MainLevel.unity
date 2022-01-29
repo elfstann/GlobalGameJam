@@ -571,12 +571,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 251448198}
+  - component: {fileID: 251448199}
   - component: {fileID: 251448197}
   - component: {fileID: 251448196}
   - component: {fileID: 251448195}
   m_Layer: 7
-  m_Name: round_boulder
-  m_TagString: Untagged
+  m_Name: BoulderTrap
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -597,7 +598,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 7805ed2c75d5c944d80d685a175ee92c, type: 2}
+  m_Material: {fileID: 6200000, guid: d4a6d93ce0a3a154a8c30ae1d7a5c7fd, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -611,7 +612,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 251448194}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 7805ed2c75d5c944d80d685a175ee92c, type: 2}
+  m_Material: {fileID: 6200000, guid: d4a6d93ce0a3a154a8c30ae1d7a5c7fd, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -676,13 +677,30 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251448194}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 13.991666, y: 19.102169, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1909132906}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &251448199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251448194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e75a4df38803c4cacd52469bda9f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePerHit: 1
+  vfxOnHit: {fileID: 1040608886635896, guid: a97415c6b57076f41a6621a7b51d63a3, type: 3}
+  trapCollider: {fileID: 251448196}
+  destroyOnItemCollision: 0
+  destroyOnPlayerCollision: 1
 --- !u!1 &293346419
 GameObject:
   m_ObjectHideFlags: 0
@@ -13899,6 +13917,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 251448198}
   - {fileID: 1779670404}
   m_Father: {fileID: 1307954568}
   m_RootOrder: 0
