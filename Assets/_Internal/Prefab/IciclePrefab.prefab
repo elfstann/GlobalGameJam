@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4317409672129690037}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.01, z: 0}
-  m_LocalScale: {x: 5, y: 6.83, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children:
   - {fileID: 2399530841299442566}
   - {fileID: 4317409672359848017}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7933969178461856642, guid: 6079945dac7f3834889972df45b421f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb6f319a5b655e44bb3d3ff8102877b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,8 +118,11 @@ MonoBehaviour:
   damagePerHit: 1
   vfxOnHit: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 3}
   trapCollider: {fileID: 4317409672129689998}
+  destroyOnCollision: 1
   trapTrigger: {fileID: 4317409672519163458}
   icicleRigidbody: {fileID: 4317409672129689992}
+  icecleSprite: {fileID: 4317409672129689994}
+  icecleOnFallSprite: {fileID: 21300000, guid: bf19e302551ab174ba3092e20092c282, type: 3}
 --- !u!50 &4317409672129689992
 Rigidbody2D:
   serializedVersion: 4
@@ -271,7 +274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4317409672519163471}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: -1.35, z: 0}
+  m_LocalPosition: {x: -2.6, y: -1.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4317409672274396745}
@@ -417,11 +420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920325297268671248, guid: 889dd67908ff48640a817f0b0074814e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1920325297268671248, guid: 889dd67908ff48640a817f0b0074814e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1920325297268671248, guid: 889dd67908ff48640a817f0b0074814e, type: 3}
       propertyPath: m_LocalScale.z
@@ -429,11 +432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920325297268671248, guid: 889dd67908ff48640a817f0b0074814e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.002
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 1920325297268671248, guid: 889dd67908ff48640a817f0b0074814e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0060000005
+      value: 2.13
       objectReference: {fileID: 0}
     - target: {fileID: 1920325297268671248, guid: 889dd67908ff48640a817f0b0074814e, type: 3}
       propertyPath: m_LocalPosition.z
