@@ -11,10 +11,20 @@ public abstract class BaseTrap : MonoBehaviour
     [SerializeField] bool destroyOnItemCollision = true;
     [SerializeField] bool destroyOnPlayerCollision = true;
 
+    Vector2 velocity = Vector2.zero;
+
     private void Awake()
     {
         if (trapCollider == null)
             trapCollider = GetComponent<Collider2D>();
+
+        PauseManager.Instance.onGamePaused += PauseTrapPhysics;
+    }
+
+    private void PauseTrapPhysics(bool state)
+    {
+        Rigidbody2D rigidBody;
+        if(TryGetComponent(out rigidBody)){ if (state) { velocity = rigidBody.velocity; rigidBody.Sleep(); } else { rigidBody.WakeUp(); rigidBody.velocity = velocity; } }
     }
 
     public virtual void TriggerTrap()
@@ -37,5 +47,10 @@ public abstract class BaseTrap : MonoBehaviour
             Destroy(gameObject);
             if (vfxOnHit != null) Instantiate(vfxOnHit, collision.GetContact(0).point, Quaternion.identity);
         } 
+    }
+
+    private void OnDestroy()
+    {
+        PauseManager.Instance.onGamePaused -= PauseTrapPhysics;
     }
 }

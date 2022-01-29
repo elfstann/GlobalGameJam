@@ -51,7 +51,7 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Gizmo settings")]
     public float maxHeightGizmoRadius = 1;
 
-
+    private bool isPaused = false;
 
     private Vector2 _moveDirection = Vector2.zero;
     private float _currentPositionOnCurve = 0;
@@ -64,7 +64,6 @@ public class PlayerController : Singleton<PlayerController>
 
     private PlayerInputScheme input;
     private bool sprintingPressd;
-
 
     private HealthController currentHealthController;
     public HealthController CurrentHealthController { get { return currentHealthController; } }
@@ -94,6 +93,8 @@ public class PlayerController : Singleton<PlayerController>
         SubscribeAllActions();
         _currentMaxAcceleration = maxAcceleration;
         _currentMaxSpeed = maxSpeed;
+
+        PauseManager.Instance.onGamePaused += PausePlayer;
     }
 
     private void Start()
@@ -101,18 +102,11 @@ public class PlayerController : Singleton<PlayerController>
         SetHealthController();
     }
 
-    private void SetHealthController()
-    {
-        if (currentPlayerState == PlayerState.Rabbit)
-            currentHealthController = rabbitHealthController;
-        else
-            currentHealthController = bearHealthController;
-
-        currentHealthController.OnHealthChanged?.Invoke(currentHealthController.CurrentHealth, currentHealthController.HealthImage);
-    }
 
     private void Update()
     {
+        if (isPaused) return;
+
         if (rigidBody.velocity.x < -0.01)
             transform.rotation = Quaternion.Euler(0, 180, 0);
         else if (rigidBody.velocity.x > 0.01)
@@ -128,7 +122,24 @@ public class PlayerController : Singleton<PlayerController>
 
     private void LateUpdate()
     {
+        if (isPaused) return;
+
         Animations();
+    }
+
+    private void PausePlayer(bool state)
+    {
+        isPaused = state;
+    }
+
+    private void SetHealthController()
+    {
+        if (currentPlayerState == PlayerState.Rabbit)
+            currentHealthController = rabbitHealthController;
+        else
+            currentHealthController = bearHealthController;
+
+        currentHealthController.OnHealthChanged?.Invoke(currentHealthController.CurrentHealth, currentHealthController.HealthImage);
     }
 
     private void Animations()
@@ -141,6 +152,8 @@ public class PlayerController : Singleton<PlayerController>
 
     private void FixedUpdate()
     {
+        if (isPaused) return;
+
         MovePlayer();
         _objectUnder = Physics2D.Raycast(player.position, Physics2D.gravity.normalized, underObjectFindDistance, groundMask);
     }
@@ -291,6 +304,11 @@ public class PlayerController : Singleton<PlayerController>
 
         shakeTime -= Time.deltaTime;
         if(shakeTime<=0f) perlin.m_AmplitudeGain = 0;
+    }
+
+    private void OnDestroy()
+    {
+        PauseManager.Instance.onGamePaused -= PausePlayer;
     }
 
 }
