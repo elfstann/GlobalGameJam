@@ -4,9 +4,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+public enum HeroType
+{
+    Rabbit,
+    Bear
+}
 public class PlayerController : MonoBehaviour
 {
-
+    [HideInInspector] public HeroType currentHero = HeroType.Bear;
+    
+    public Animator bearAnimator;
+    public Animator rabbitAnimator;
+    
     [Header("Components")]
     public PhysicsMaterial2D material2D;
     public Rigidbody2D rigidBody;
@@ -83,9 +92,26 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (rigidBody.velocity.x < -0.01)
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        else if (rigidBody.velocity.x > 0.01)
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        
         _positionsSnapshot.Enqueue((player.position , Time.time));
         if (Time.time - _positionsSnapshot.Peek().Item2 >= safeJumpDelay)
             _positionsSnapshot.Dequeue();
+    }
+
+    private void LateUpdate()
+    {
+        Animations();
+    }
+
+    private void Animations()
+    {
+        Animator currentAnimator = currentHero == HeroType.Bear ? bearAnimator : rabbitAnimator;
+        rabbitAnimator.SetBool("Move", rigidBody.velocity.sqrMagnitude > 0.001f && IsLanded(player.position));
+        rabbitAnimator.SetFloat("Speed", rigidBody.velocity.magnitude / maxSpeed);
     }
 
     private void FixedUpdate()
@@ -94,12 +120,26 @@ public class PlayerController : MonoBehaviour
         _objectUnder = Physics2D.Raycast(player.position, Physics2D.gravity.normalized, underObjectFindDistance, groundMask);
     }
 
+    private void EnableAllActions()
+    {
+        input.Player.Move.Enable();   
+        input.Player.Jump.Enable();
+        input.Player.Sprint.Enable();
+        input.Player.Fire.Enable();
+    }
+
     private void SubscribeAllActions()
     {
         input.Player.Move.started += StartMovePlayer;
         input.Player.Move.canceled += StartMovePlayer;
         input.Player.Jump.performed += Jump;
         input.Player.Sprint.performed += Sprint;
+        input.Player.Fire.performed += Fire;
+    }
+
+    private void Fire(InputAction.CallbackContext obj)
+    {
+        if (obj.ReadValueAsButton() && currentHero == HeroType.Bear) bearAnimator.SetTrigger("Attack");
     }
 
     private void Sprint(InputAction.CallbackContext obj)
@@ -114,13 +154,6 @@ public class PlayerController : MonoBehaviour
         }
         SetSpeed();
         Debug.Log(sprintingPressd);
-    }
-
-    private void EnableAllActions()
-    {
-        input.Player.Move.Enable();   
-        input.Player.Jump.Enable();
-        input.Player.Sprint.Enable();
     }
 
     private void Jump(InputAction.CallbackContext obj)
