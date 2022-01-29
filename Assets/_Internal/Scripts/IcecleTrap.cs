@@ -6,6 +6,8 @@ public class IcecleTrap : BaseTrap
 {
     [SerializeField] Trigger trapTrigger;
     [SerializeField] Rigidbody2D icicleRigidbody;
+    [SerializeField] SpriteRenderer icecleSprite;
+    [SerializeField] Sprite icecleOnFallSprite;
 
     private void Start()
     {
@@ -18,6 +20,7 @@ public class IcecleTrap : BaseTrap
     {
         base.TriggerTrap();
         Debug.Log("Triggered");
+        icecleSprite.sprite = icecleOnFallSprite;
         icicleRigidbody.gravityScale = 1f;
     }
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
 {
@@ -13,12 +14,13 @@ public class HealthController : MonoBehaviour
     [Header("Visual Settings")]
     [SerializeField] GameObject vfxOnRemove;
     [SerializeField] GameObject vfxOnAdd;
+    [SerializeField] Sprite healthImage;
 
     int currentHealth;
     int prevHealth;
 
     public Action OnCharacterDead;
-    public Action<int> OnHealthChanged;
+    public Action<int, Sprite> OnHealthChanged;
 
     void Awake()
     {
@@ -30,7 +32,7 @@ public class HealthController : MonoBehaviour
         GameObject vfxToSpawn = currentHealth > prevHealth ? vfxOnAdd : vfxOnRemove;
         if (vfxToSpawn != null) Instantiate(vfxToSpawn, PlayerController.Instance.player.transform);
     }
-
+    public Sprite HealthImage { get { return healthImage; } }
     public int CurrentHealth
     {
         get { return currentHealth; }
@@ -40,7 +42,7 @@ public class HealthController : MonoBehaviour
             currentHealth = Mathf.Clamp(value, 0, maxHealth);
 
             RepresentHealth();
-            OnHealthChanged?.Invoke(currentHealth);
+            OnHealthChanged?.Invoke(currentHealth, healthImage);
             if (currentHealth <= 0) OnCharacterDead?.Invoke();
         }
     }
