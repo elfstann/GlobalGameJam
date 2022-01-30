@@ -9,7 +9,8 @@ using UnityEngine.UI;
 public enum PopupName
 {
     Credits = 1,
-    Pause = 2
+    Pause = 2,
+    Death = 3
 }
 
 public class PopupHandler : MonoBehaviour
@@ -29,7 +30,7 @@ public class PopupHandler : MonoBehaviour
     {
         foreach (var popup in popups)
         {
-            popup.Close(); 
+            popup.Close();
             popup.OnClose += OnClose;
         }
     }
@@ -57,6 +58,12 @@ public class PopupHandler : MonoBehaviour
             .Play();
 
         currentlyOpen = null;
+    }
+
+    public void CloseCurrent()
+    {
+        if (currentlyOpen != null && currentlyOpen.gameObject.activeInHierarchy == true)
+            currentlyOpen.Close();
     }
 
     public void Open(PopupName name, Action<Popup> init = null)
@@ -94,7 +101,7 @@ public class PopupHandler : MonoBehaviour
             .SetEase(openEase)
             .Play();
 
-        currentlyOpen = popup;        
+        currentlyOpen = popup;
     }
 }
 

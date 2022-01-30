@@ -329,7 +329,7 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""bc6309ad-a520-4eb9-a5ac-1f71889b3fa5"",
                     ""path"": ""<Keyboard>/q"",
-                    ""interactions"": ""Hold(duration=0.4,pressPoint=0.5)"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""SwapHero"",

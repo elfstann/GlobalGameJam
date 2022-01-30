@@ -26,6 +26,7 @@ public class HealthController : MonoBehaviour
     {
         currentHealth = maxHealth;
         OnHealthChanged += healthViewer.UpdateHealthCount;
+        OnCharacterDead += PauseManager.Instance.EndGame;
     }
     private void RepresentHealth()
     {

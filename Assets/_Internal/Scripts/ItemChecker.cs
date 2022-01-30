@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(Collider2D))]
 public class ItemChecker : MonoBehaviour
 {
     [SerializeField] List<int> requiredItems;
@@ -17,7 +16,7 @@ public class ItemChecker : MonoBehaviour
     [SerializeField] UnityEvent onCheckFail = new UnityEvent();
     
 
-    public bool CheckItems() 
+    public void CheckItems() 
     {
         var picker = PlayerController.Instance.itemPicker;
         foreach (int iid in requiredItems)
@@ -25,7 +24,7 @@ public class ItemChecker : MonoBehaviour
             if (!picker.HasItem(iid))
             {
                 onCheckFail.Invoke();
-                return false;
+                return;
             }
         }
         if (removeItems)
@@ -33,6 +32,6 @@ public class ItemChecker : MonoBehaviour
         if (destroyOnSuccess)
             Destroy(this);
         onCheckSuccess.Invoke();
-        return true;
+        return;
     }
 }

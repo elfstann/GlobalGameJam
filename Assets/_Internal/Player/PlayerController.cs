@@ -114,8 +114,8 @@ public class PlayerController : Singleton<PlayerController>
             transform.rotation = Quaternion.Euler(0, 180, 0);
         else if (rigidBody.velocity.x > 0.01)
             transform.rotation = Quaternion.Euler(0, 0, 0);
-        
-        _positionsSnapshot.Enqueue((player.position , Time.time));
+
+        _positionsSnapshot.Enqueue((player.position, Time.time));
 
         if (Time.time - _positionsSnapshot.Peek().Item2 >= safeJumpDelay)
             _positionsSnapshot.Dequeue();
@@ -133,6 +133,7 @@ public class PlayerController : Singleton<PlayerController>
     private void PausePlayer(bool state)
     {
         isPaused = state;
+        //PauseShakeTime(state);
     }
 
     private void SetHealthController()
@@ -148,7 +149,7 @@ public class PlayerController : Singleton<PlayerController>
     private void Animations()
     {
         Animator currentAnimator = currentPlayerState == PlayerState.Bear ? bearAnimator : rabbitAnimator;
-        currentAnimator.SetBool("Landed" , IsLanded(player.position));
+        currentAnimator.SetBool("Landed", IsLanded(player.position));
         currentAnimator.SetBool("Move", rigidBody.velocity.sqrMagnitude > 0.001f && IsLanded(player.position));
         currentAnimator.SetFloat("Speed", rigidBody.velocity.magnitude / maxSpeed);
     }
@@ -163,7 +164,7 @@ public class PlayerController : Singleton<PlayerController>
 
     private void EnableAllActions()
     {
-        input.Player.Move.Enable();   
+        input.Player.Move.Enable();
         input.Player.Jump.Enable();
         input.Player.Sprint.Enable();
         input.Player.Fire.Enable();
@@ -180,9 +181,19 @@ public class PlayerController : Singleton<PlayerController>
         input.Player.SwapHero.performed += SwapHero;
     }
 
+    private void UnsubscribeAllActions()
+    {
+        input.Player.Move.started -= StartMovePlayer;
+        input.Player.Move.canceled -= StartMovePlayer;
+        input.Player.Jump.performed -= Jump;
+        input.Player.Sprint.performed -= Sprint;
+        input.Player.Fire.performed -= Fire;
+        input.Player.SwapHero.performed -= SwapHero;
+    }
+
     private void SwapHero(InputAction.CallbackContext obj)
     {
-        currentPlayerState = (PlayerState) (1 - ((int)currentPlayerState));
+        currentPlayerState = (PlayerState)(1 - ((int)currentPlayerState));
         SetHealthController();
         Debug.Log(currentPlayerState);
         rabbitAnimator.gameObject.SetActive(currentPlayerState == PlayerState.Rabbit);
@@ -214,9 +225,9 @@ public class PlayerController : Singleton<PlayerController>
         if (Time.time - _lastJumpTime < jumpCooldown) return;
         if (!obj.ReadValueAsButton()) return;
 
-        if(!IsLanded(player.position) && !IsLanded(_positionsSnapshot.Peek().Item1)) return;
-        
-        if (currentPlayerState == PlayerState.Rabbit)   
+        if (!IsLanded(player.position) && !IsLanded(_positionsSnapshot.Peek().Item1)) return;
+
+        if (currentPlayerState == PlayerState.Rabbit)
             StartCoroutine(StartJump());
     }
 
@@ -226,11 +237,11 @@ public class PlayerController : Singleton<PlayerController>
         if (AudioPlayer.Instance != null) AudioPlayer.Instance.PlaySound(SoundEvent.Jump);
 
         yield return new WaitForSeconds(1f / 6f);
-        
+
         float startYSpeed = Mathf.Sqrt(2 * Mathf.Abs(Physics2D.gravity.y) * jumpHeight);
         Vector2 startVelocity = -startYSpeed * Physics2D.gravity.normalized;
-        
-        
+
+
         var rigidBodyVelocity = rigidBody.velocity;
         if (IsLanded(_positionsSnapshot.Peek().Item1) && !IsLanded(player.position))
             rigidBodyVelocity.y = startVelocity.y;
@@ -307,7 +318,21 @@ public class PlayerController : Singleton<PlayerController>
             return;
 
         shakeTime -= Time.deltaTime;
-        if(shakeTime<=0f) perlin.m_AmplitudeGain = 0;
+        if (shakeTime <= 0f) perlin.m_AmplitudeGain = 0;
+    }
+
+    private float amplitude = 0;
+    private void PauseShakeTime(bool state)
+    {
+        if (state && shakeTime > 0f)
+        {
+            amplitude = perlin.m_AmplitudeGain;
+            perlin.m_AmplitudeGain = 0;
+        }
+        else if (!state && shakeTime > 0f)
+        {
+            perlin.m_AmplitudeGain = amplitude;
+        }
     }
 
     private void OnRabbitDeath()
@@ -322,6 +347,7 @@ public class PlayerController : Singleton<PlayerController>
 
     private void OnDestroy()
     {
+        UnsubscribeAllActions();
         PauseManager.Instance.OnGamePaused -= PausePlayer;
     }
 
