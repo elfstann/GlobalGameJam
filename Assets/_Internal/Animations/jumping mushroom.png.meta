@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 07f2e659df03aef4bb8c682bfc7326a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9110888421338417626
+    second: jumping mushroom_0
+  - first:
+      213: -4582856991075430584
+    second: jumping mushroom_1
+  - first:
+      213: -6658220211981669069
+    second: jumping mushroom_2
+  - first:
+      213: -8438854581316469959
+    second: jumping mushroom_3
+  - first:
+      213: 6853191481475754782
+    second: jumping mushroom_4
+  - first:
+      213: -3754183281430736752
+    second: jumping mushroom_5
+  - first:
+      213: -4622709075934233077
+    second: jumping mushroom_6
+  - first:
+      213: 5419656354325375642
+    second: jumping mushroom_7
+  - first:
+      213: -785646444950118524
+    second: jumping mushroom_8
+  - first:
+      213: 8272809963002703812
+    second: jumping mushroom_9
+  - first:
+      213: -4914244311078270930
+    second: jumping mushroom_10
+  - first:
+      213: 1307238615092922297
+    second: jumping mushroom_11
+  - first:
+      213: -3951251068866625774
+    second: jumping mushroom_12
+  - first:
+      213: -8548254636326506921
+    second: jumping mushroom_13
+  - first:
+      213: -7402587243946078989
+    second: jumping mushroom_14
+  - first:
+      213: 466694117131655570
+    second: jumping mushroom_15
+  - first:
+      213: 9065877051551253137
+    second: jumping mushroom_16
+  - first:
+      213: 3773639350450088710
+    second: jumping mushroom_17
+  - first:
+      213: -3154076935580054221
+    second: jumping mushroom_18
+  - first:
+      213: 4861423190810617205
+    second: jumping mushroom_19
+  - first:
+      213: -5078420380003214728
+    second: jumping mushroom_20
+  - first:
+      213: -2792131861995407391
+    second: jumping mushroom_21
+  - first:
+      213: 4933616022324416075
+    second: jumping mushroom_22
+  - first:
+      213: 1658560726544795076
+    second: jumping mushroom_23
+  - first:
+      213: -3642962548984603705
+    second: jumping mushroom_24
+  - first:
+      213: 5336126961969430111
+    second: jumping mushroom_25
+  - first:
+      213: -7833687118169882206
+    second: jumping mushroom_26
+  - first:
+      213: -3980103894588354149
+    second: jumping mushroom_27
+  - first:
+      213: 2567212459210728388
+    second: jumping mushroom_28
+  - first:
+      213: -7628847549312264574
+    second: jumping mushroom_29
+  - first:
+      213: -4831755437669835243
+    second: jumping mushroom_30
+  - first:
+      213: -813721588217199150
+    second: jumping mushroom_31
+  - first:
+      213: 9145986841362559442
+    second: jumping mushroom_32
+  - first:
+      213: -3802313749177700008
+    second: jumping mushroom_33
+  - first:
+      213: 6112484309025644031
+    second: jumping mushroom_34
+  - first:
+      213: 9036864547531305327
+    second: jumping mushroom_35
+  - first:
+      213: -1603478263443530020
+    second: jumping mushroom_36
+  - first:
+      213: 6255708904747949612
+    second: jumping mushroom_37
+  - first:
+      213: -2740978328994853757
+    second: jumping mushroom_38
+  - first:
+      213: 1154258245190290585
+    second: jumping mushroom_39
+  - first:
+      213: 1678143898661504199
+    second: jumping mushroom_40
+  - first:
+      213: 4699286871530119270
+    second: jumping mushroom_41
+  - first:
+      213: 3270382342221134204
+    second: jumping mushroom_42
+  - first:
+      213: -7022957414448107639
+    second: jumping mushroom_43
+  - first:
+      213: -301355880419518597
+    second: jumping mushroom_44
+  - first:
+      213: 5672306519889282152
+    second: jumping mushroom_45
+  - first:
+      213: -12760990193489270
+    second: jumping mushroom_46
+  - first:
+      213: 5937472208057274248
+    second: jumping mushroom_47
+  - first:
+      213: 8464793327454752621
+    second: jumping mushroom_48
+  - first:
+      213: -7817364791440851061
+    second: jumping mushroom_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jumping mushroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad988166fb0607e70800000000000000
+      internalID: 9110888421338417626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f888ef8db6660c0800000000000000
+      internalID: -4582856991075430584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_2
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33da1847eff3993a0800000000000000
+      internalID: -6658220211981669069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_3
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b3471287a23ea80800000000000000
+      internalID: -8438854581316469959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_4
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b6817b75d6b1f50800000000000000
+      internalID: 6853191481475754782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_5
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905c90323676ebc0800000000000000
+      internalID: -3754183281430736752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_6
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e37fc6696d8dfb0800000000000000
+      internalID: -4622709075934233077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_7
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 6972
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aa04c5dbc763b40800000000000000
+      internalID: 5419656354325375642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f13b988b2d815f0800000000000000
+      internalID: -785646444950118524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfa61384dceec270800000000000000
+      internalID: 8272809963002703812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_10
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2802baf5d81dcbb0800000000000000
+      internalID: -4914244311078270930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_11
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b78949289e342210800000000000000
+      internalID: 1307238615092922297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_12
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f72d566165a29c0800000000000000
+      internalID: -3951251068866625774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_13
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e2c28e2bf7e5980800000000000000
+      internalID: -8548254636326506921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_14
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc81c94f1ab44990800000000000000
+      internalID: -7402587243946078989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_15
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 5810
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299956ea3d70a7600800000000000000
+      internalID: 466694117131655570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1920413352770dd70800000000000000
+      internalID: 9065877051551253137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_17
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b6302eef8ae5430800000000000000
+      internalID: 3773639350450088710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_18
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d8f74fcb77a34d0800000000000000
+      internalID: -3154076935580054221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_19
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ec1792ae377340800000000000000
+      internalID: 4861423190810617205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_20
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87addcd2293d589b0800000000000000
+      internalID: -5078420380003214728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_21
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7b6b76dda5049d0800000000000000
+      internalID: -2792131861995407391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_22
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e82d402a9b77440800000000000000
+      internalID: 4933616022324416075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_23
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 4648
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5cd108134640710800000000000000
+      internalID: 1658560726544795076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb98b9ecd8917dc0800000000000000
+      internalID: -3642962548984603705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_25
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e729c233bbd0a40800000000000000
+      internalID: 5336126961969430111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_26
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a14ee71217294390800000000000000
+      internalID: -7833687118169882206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_27
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9199e96894d3c8c0800000000000000
+      internalID: -3980103894588354149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_28
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c36636412290a320800000000000000
+      internalID: 2567212459210728388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_29
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28612a1c293e02690800000000000000
+      internalID: -7628847549312264574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_30
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e9028770822fcb0800000000000000
+      internalID: -4831755437669835243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_31
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 3486
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d54f3cd68415b4f0800000000000000
+      internalID: -813721588217199150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1ffcf13921dee70800000000000000
+      internalID: 9145986841362559442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_33
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851fda76ac77b3bc0800000000000000
+      internalID: -3802313749177700008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_34
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd5f9ef718e3d450800000000000000
+      internalID: 6112484309025644031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_35
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61bce63d64696d70800000000000000
+      internalID: 9036864547531305327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_36
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde5366d30d4fb9e0800000000000000
+      internalID: -1603478263443530020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_37
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2edfbdca1eb0d650800000000000000
+      internalID: 6255708904747949612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_38
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cc73b6bb616f9d0800000000000000
+      internalID: -2740978328994853757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_39
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 2324
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c02ab22cfb40010800000000000000
+      internalID: 1154258245190290585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c445b11cf6f94710800000000000000
+      internalID: 1678143898661504199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_41
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660a5330388373140800000000000000
+      internalID: 4699286871530119270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_42
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79fccbb96bb26d20800000000000000
+      internalID: 3270382342221134204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_43
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fef17d071798e90800000000000000
+      internalID: -7022957414448107639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_44
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b779e946c6e51dbf0800000000000000
+      internalID: -301355880419518597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_45
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86402270ab418be40800000000000000
+      internalID: 5672306519889282152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_46
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ae88072f9a2dff0800000000000000
+      internalID: -12760990193489270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_47
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 1162
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f0201e383266250800000000000000
+      internalID: 5937472208057274248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f8904deacf87570800000000000000
+      internalID: 8464793327454752621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping mushroom_49
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 620
+        height: 1162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fb58ee324238390800000000000000
+      internalID: -7817364791440851061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

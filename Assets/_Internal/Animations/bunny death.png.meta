@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 90b92a094920f69479656f02ef556035
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 487157981142933042
+    second: bunny death_0
+  - first:
+      213: 6682234042675807827
+    second: bunny death_1
+  - first:
+      213: -4113698775020611199
+    second: bunny death_2
+  - first:
+      213: 7156287959068436760
+    second: bunny death_3
+  - first:
+      213: 3811063843088493648
+    second: bunny death_4
+  - first:
+      213: -7894845099497064630
+    second: bunny death_5
+  - first:
+      213: -8069086280092375338
+    second: bunny death_6
+  - first:
+      213: -349496806619872068
+    second: bunny death_7
+  - first:
+      213: -185524265845233867
+    second: bunny death_8
+  - first:
+      213: -1280821630696632301
+    second: bunny death_9
+  - first:
+      213: 1113217331442081837
+    second: bunny death_10
+  - first:
+      213: 2151335469128446531
+    second: bunny death_11
+  - first:
+      213: 5398166917553198724
+    second: bunny death_12
+  - first:
+      213: -6613205496550588764
+    second: bunny death_13
+  - first:
+      213: 4776200537240191676
+    second: bunny death_14
+  - first:
+      213: 6728627208106284924
+    second: bunny death_15
+  - first:
+      213: -563357504850823565
+    second: bunny death_16
+  - first:
+      213: -1994552014628109937
+    second: bunny death_17
+  - first:
+      213: 1279229249187416573
+    second: bunny death_18
+  - first:
+      213: 8259959789507480592
+    second: bunny death_19
+  - first:
+      213: 9220212088538703973
+    second: bunny death_20
+  - first:
+      213: 2833761762806491960
+    second: bunny death_21
+  - first:
+      213: -1788606620573048270
+    second: bunny death_22
+  - first:
+      213: -8298267409458155892
+    second: bunny death_23
+  - first:
+      213: -5769973572773852223
+    second: bunny death_24
+  - first:
+      213: 4172510222833110458
+    second: bunny death_25
+  - first:
+      213: -7577337629164084301
+    second: bunny death_26
+  - first:
+      213: -6278457540211185956
+    second: bunny death_27
+  - first:
+      213: 425264089712685629
+    second: bunny death_28
+  - first:
+      213: 2774133184124749060
+    second: bunny death_29
+  - first:
+      213: 5929351576959995471
+    second: bunny death_30
+  - first:
+      213: 1417263292651052782
+    second: bunny death_31
+  - first:
+      213: 3761628016582309278
+    second: bunny death_32
+  - first:
+      213: 7018429090056216901
+    second: bunny death_33
+  - first:
+      213: -4306153866613112557
+    second: bunny death_34
+  - first:
+      213: -4894309077147817229
+    second: bunny death_35
+  - first:
+      213: -92309840281043246
+    second: bunny death_36
+  - first:
+      213: 1146833843073197580
+    second: bunny death_37
+  - first:
+      213: -5691113481348572339
+    second: bunny death_38
+  - first:
+      213: 7563882910588599432
+    second: bunny death_39
+  - first:
+      213: 3824130098117142470
+    second: bunny death_40
+  - first:
+      213: -7464447785186644070
+    second: bunny death_41
+  - first:
+      213: -4728969375139755598
+    second: bunny death_42
+  - first:
+      213: -8375059958877202003
+    second: bunny death_43
+  - first:
+      213: 7134445906044139949
+    second: bunny death_44
+  - first:
+      213: 1741929689222090652
+    second: bunny death_45
+  - first:
+      213: -3862184672371875114
+    second: bunny death_46
+  - first:
+      213: 4838811794557241136
+    second: bunny death_47
+  - first:
+      213: 2239349860857371808
+    second: bunny death_48
+  - first:
+      213: -4888619789450262444
+    second: bunny death_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunny death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e558f4a9bb2c600800000000000000
+      internalID: 487157981142933042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_1
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356c6b335701cbc50800000000000000
+      internalID: 6682234042675807827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_2
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189dfe962c439e6c0800000000000000
+      internalID: -4113698775020611199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_3
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819edaeabfd305360800000000000000
+      internalID: 7156287959068436760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_4
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cef979f5e93e430800000000000000
+      internalID: 3811063843088493648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_5
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a477ebfe530ef6290800000000000000
+      internalID: -7894845099497064630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_6
+      rect:
+        serializedVersion: 2
+        x: 8334
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6ad15b7c8d40090800000000000000
+      internalID: -8069086280092375338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_7
+      rect:
+        serializedVersion: 2
+        x: 9723
+        y: 7626
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb40a4f8186562bf0800000000000000
+      internalID: -349496806619872068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5376415c9a2ec6df0800000000000000
+      internalID: -185524265845233867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_9
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310d0b1538b993ee0800000000000000
+      internalID: -1280821630696632301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_10
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20e96ec341f27f00800000000000000
+      internalID: 1113217331442081837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_11
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342791ef5341bdd10800000000000000
+      internalID: 2151335469128446531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_12
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4861607f5342aea40800000000000000
+      internalID: 5398166917553198724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_13
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aef07f93ac2934a0800000000000000
+      internalID: -6613205496550588764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_14
+      rect:
+        serializedVersion: 2
+        x: 8334
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb24b3e4519784240800000000000000
+      internalID: 4776200537240191676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_15
+      rect:
+        serializedVersion: 2
+        x: 9723
+        y: 6355
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c771435cbc2e06d50800000000000000
+      internalID: 6728627208106284924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376f0d9855d8e28f0800000000000000
+      internalID: -563357504850823565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_17
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f814d02a28de154e0800000000000000
+      internalID: -1994552014628109937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_18
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df90b18793cb0c110800000000000000
+      internalID: 1279229249187416573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_19
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c8a985aa541a270800000000000000
+      internalID: 8259959789507480592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_20
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568ac133b06c4ff70800000000000000
+      internalID: 9220212088538703973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_21
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b6a223f4b835720800000000000000
+      internalID: 2833761762806491960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_22
+      rect:
+        serializedVersion: 2
+        x: 8334
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232e4d941c79d27e0800000000000000
+      internalID: -1788606620573048270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_23
+      rect:
+        serializedVersion: 2
+        x: 9723
+        y: 5084
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eab08d1c1a6dc80800000000000000
+      internalID: -8298267409458155892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb4c6f2b9fecefa0800000000000000
+      internalID: -5769973572773852223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_25
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd47a5d0fbb7e930800000000000000
+      internalID: 4172510222833110458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_26
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3697e9293e7d690800000000000000
+      internalID: -7577337629164084301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_27
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6e652c1207ed8a0800000000000000
+      internalID: -6278457540211185956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_28
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32fd0bbf67d6e500800000000000000
+      internalID: 425264089712685629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_29
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4050167de63bf7620800000000000000
+      internalID: 2774133184124749060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_30
+      rect:
+        serializedVersion: 2
+        x: 8334
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e4a1d18d9494250800000000000000
+      internalID: 5929351576959995471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_31
+      rect:
+        serializedVersion: 2
+        x: 9723
+        y: 3813
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee9aa7a4712ba310800000000000000
+      internalID: 1417263292651052782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95bb8940ccf33430800000000000000
+      internalID: 3761628016582309278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_33
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541a11a7218766160800000000000000
+      internalID: 7018429090056216901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_34
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311c9509fd77d34c0800000000000000
+      internalID: -4306153866613112557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_35
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa62a353dbe31cb0800000000000000
+      internalID: -4894309077147817229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_36
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de76c870bc08bef0800000000000000
+      internalID: -92309840281043246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_37
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0626c8dd4f5aef00800000000000000
+      internalID: 1146833843073197580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_38
+      rect:
+        serializedVersion: 2
+        x: 8334
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b18c7017a1501b0800000000000000
+      internalID: -5691113481348572339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_39
+      rect:
+        serializedVersion: 2
+        x: 9723
+        y: 2542
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cf7489e6f48f860800000000000000
+      internalID: 7563882910588599432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7e629201a021530800000000000000
+      internalID: 3824130098117142470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_41
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9faf77a944f86890800000000000000
+      internalID: -7464447785186644070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_42
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9081198635f5eb0800000000000000
+      internalID: -4728969375139755598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_43
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9d682275fc5cb80800000000000000
+      internalID: -8375059958877202003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_44
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9300b60c4a20360800000000000000
+      internalID: 7134445906044139949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_45
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f0acdb2d39c2810800000000000000
+      internalID: 1741929689222090652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_46
+      rect:
+        serializedVersion: 2
+        x: 8334
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e052d083c66ac0800000000000000
+      internalID: -3862184672371875114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_47
+      rect:
+        serializedVersion: 2
+        x: 9723
+        y: 1271
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0370e85a0b9e62340800000000000000
+      internalID: 4838811794557241136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac593875d4c31f10800000000000000
+      internalID: 2239349860857371808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny death_49
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 0
+        width: 1389
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4584fd7d332282cb0800000000000000
+      internalID: -4888619789450262444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

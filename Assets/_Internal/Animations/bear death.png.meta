@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: c66212716548eeb4e87d5f0a3cd46ead
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6589007133848388867
+    second: bear death_0
+  - first:
+      213: -3616815223260778745
+    second: bear death_1
+  - first:
+      213: -7028629878862311195
+    second: bear death_2
+  - first:
+      213: -2340757406687168010
+    second: bear death_3
+  - first:
+      213: -2694139893618287603
+    second: bear death_4
+  - first:
+      213: -7926329264086899751
+    second: bear death_5
+  - first:
+      213: 7359074999066788383
+    second: bear death_6
+  - first:
+      213: 1116484490586855100
+    second: bear death_7
+  - first:
+      213: 4610622807699735635
+    second: bear death_8
+  - first:
+      213: -1812472565606955132
+    second: bear death_9
+  - first:
+      213: 983033648672508423
+    second: bear death_10
+  - first:
+      213: -5805908020026010086
+    second: bear death_11
+  - first:
+      213: -7302554377450024970
+    second: bear death_12
+  - first:
+      213: -7113218986617834302
+    second: bear death_13
+  - first:
+      213: -6558297389886961626
+    second: bear death_14
+  - first:
+      213: -338202739501404123
+    second: bear death_15
+  - first:
+      213: 7849144120173437380
+    second: bear death_16
+  - first:
+      213: 263073977949960615
+    second: bear death_17
+  - first:
+      213: -6803263686468710658
+    second: bear death_18
+  - first:
+      213: 8057145800473670090
+    second: bear death_19
+  - first:
+      213: 530204378917319369
+    second: bear death_20
+  - first:
+      213: 4963089319268622543
+    second: bear death_21
+  - first:
+      213: -339312790755437604
+    second: bear death_22
+  - first:
+      213: 5883595176196925170
+    second: bear death_23
+  - first:
+      213: 8006963193472798408
+    second: bear death_24
+  - first:
+      213: -4271237469925835404
+    second: bear death_25
+  - first:
+      213: -3703379212673170320
+    second: bear death_26
+  - first:
+      213: 2894132062459086540
+    second: bear death_27
+  - first:
+      213: 8902279515640708358
+    second: bear death_28
+  - first:
+      213: 7523789185455550501
+    second: bear death_29
+  - first:
+      213: -6989183111841365659
+    second: bear death_30
+  - first:
+      213: 2092016877714515413
+    second: bear death_31
+  - first:
+      213: 6531746838111227112
+    second: bear death_32
+  - first:
+      213: 7377845377025604599
+    second: bear death_33
+  - first:
+      213: 7536523908615866745
+    second: bear death_34
+  - first:
+      213: 9044207213872976746
+    second: bear death_35
+  - first:
+      213: -8708341161402869230
+    second: bear death_36
+  - first:
+      213: -6865656522788834401
+    second: bear death_37
+  - first:
+      213: -2862090824413744073
+    second: bear death_38
+  - first:
+      213: 262101132064825311
+    second: bear death_39
+  - first:
+      213: -7466847258350249922
+    second: bear death_40
+  - first:
+      213: 6380285275699911202
+    second: bear death_41
+  - first:
+      213: 2381696555386294519
+    second: bear death_42
+  - first:
+      213: 6536265209831179013
+    second: bear death_43
+  - first:
+      213: 6720606456621238099
+    second: bear death_44
+  - first:
+      213: 2658820812280840901
+    second: bear death_45
+  - first:
+      213: -2752730284602611238
+    second: bear death_46
+  - first:
+      213: -8393172262918507903
+    second: bear death_47
+  - first:
+      213: -8831938157776688638
+    second: bear death_48
+  - first:
+      213: -8840761707166770287
+    second: bear death_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bear death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfab37cfbe42f84a0800000000000000
+      internalID: -6589007133848388867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_1
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fe05797bd7ecdc0800000000000000
+      internalID: -3616815223260778745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_2
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e017bc4d5a457e90800000000000000
+      internalID: -7028629878862311195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_3
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9fb0d5a85f38fd0800000000000000
+      internalID: -2340757406687168010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_4
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c5ca97a0e7c9ad0800000000000000
+      internalID: -2694139893618287603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_5
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d32151a785000290800000000000000
+      internalID: -7926329264086899751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_6
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1285dab8bfa02660800000000000000
+      internalID: 7359074999066788383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_7
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 6204
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb699a29abc8e7f00800000000000000
+      internalID: 1116484490586855100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c146f3093cff30800000000000000
+      internalID: 4610622807699735635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4874bd1fdcdc8d6e0800000000000000
+      internalID: -1812472565606955132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_10
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a816725ef64ad00800000000000000
+      internalID: 983033648672508423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_11
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1612c3ba654d6fa0800000000000000
+      internalID: -5805908020026010086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_12
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff0e1bfb7d18aa90800000000000000
+      internalID: -7302554377450024970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_13
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c47415e405c84d90800000000000000
+      internalID: -7113218986617834302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_14
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6288a60754f3cf4a0800000000000000
+      internalID: -6558297389886961626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_15
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 5170
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52074f976667e4bf0800000000000000
+      internalID: -338202739501404123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1a8c1adf2cdec60800000000000000
+      internalID: 7849144120173437380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_17
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a93b5d9360a6a300800000000000000
+      internalID: 263073977949960615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_18
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efec7bee8b3f591a0800000000000000
+      internalID: -6803263686468710658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_19
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac173ccba6bb0df60800000000000000
+      internalID: 8057145800473670090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_20
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c239bfc21aab5700800000000000000
+      internalID: 530204378917319369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_21
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0aa87b07f60e440800000000000000
+      internalID: 4963089319268622543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_22
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3964780d48a4bf0800000000000000
+      internalID: -339312790755437604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_23
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 4136
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f66b6fd3aab6a150800000000000000
+      internalID: 5883595176196925170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec29c0a927e1f60800000000000000
+      internalID: 8006963193472798408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_25
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d7bbda62489b4c0800000000000000
+      internalID: -4271237469925835404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_26
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074cc083a34fa9cc0800000000000000
+      internalID: -3703379212673170320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_27
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc641fbe6c50a2820800000000000000
+      internalID: 2894132062459086540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_28
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d300d9d004b8b70800000000000000
+      internalID: 8902279515640708358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_29
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520f004c66ed96860800000000000000
+      internalID: 7523789185455550501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_30
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56149847dfe610f90800000000000000
+      internalID: -6989183111841365659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_31
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 3102
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ab4c2446580d10800000000000000
+      internalID: 2092016877714515413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec8660842d65aa50800000000000000
+      internalID: 6531746838111227112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_33
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb7e59e74f536660800000000000000
+      internalID: 7377845377025604599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_34
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979894e809c179860800000000000000
+      internalID: 7536523908615866745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_35
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a639ce1fa8a738d70800000000000000
+      internalID: 9044207213872976746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_36
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a5bab3ad1c52780800000000000000
+      internalID: -8708341161402869230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_37
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93f351b4c948b0a0800000000000000
+      internalID: -6865656522788834401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_38
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734f9e72f8fc748d0800000000000000
+      internalID: -2862090824413744073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_39
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 2068
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf93f7479b23a300800000000000000
+      internalID: 262101132064825311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e381fe5cafd606890800000000000000
+      internalID: -7466847258350249922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_41
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a9fbf67a35b8850800000000000000
+      internalID: 6380285275699911202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_42
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0529af56c7d0120800000000000000
+      internalID: 2381696555386294519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_43
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5034bb5e39a75ba50800000000000000
+      internalID: 6536265209831179013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_44
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570b1a07f3644d50800000000000000
+      internalID: 6720606456621238099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_45
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c24a65117706e420800000000000000
+      internalID: 2658820812280840901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_46
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad92dc704665cc9d0800000000000000
+      internalID: -2752730284602611238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_47
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 1034
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182b41abb46758b80800000000000000
+      internalID: -8393172262918507903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aa0830a07ae6580800000000000000
+      internalID: -8831938157776688638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear death_49
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 948
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bd274511e4f4580800000000000000
+      internalID: -8840761707166770287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
