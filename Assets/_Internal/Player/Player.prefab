@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1454932255844486567}
   m_Layer: 0
   m_Name: Bear
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,6 +136,7 @@ Transform:
   m_Children:
   - {fileID: 1701007230683975605}
   - {fileID: 906453293517089856}
+  - {fileID: 2785928122776293956}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -154,7 +155,7 @@ MonoBehaviour:
   currentPlayerState: 0
   rabbitHealthController: {fileID: 9136813201964497374}
   bearHealthController: {fileID: 2273149587253147475}
-  itemPicker: {fileID: 0}
+  itemPicker: {fileID: 7252719896725926067}
   material2D: {fileID: 6200000, guid: cb3580f7400a22043a921e1b0392e7ad, type: 2}
   rigidBody: {fileID: 2215558342421072864}
   player: {fileID: 2215558342421072867}
@@ -286,6 +287,77 @@ MonoBehaviour:
   vfxOnRemove: {fileID: 100006, guid: bcaff8fc36e95584bb27cc3cf7c6cb14, type: 3}
   vfxOnAdd: {fileID: 100004, guid: 3af6f68141914ca43ba39b2403757bd0, type: 3}
   healthImage: {fileID: 21300000, guid: 8c50610c4cfd398429b09a5dcd17ca6c, type: 3}
+--- !u!1 &5708525178404487405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2785928122776293956}
+  - component: {fileID: 8566065436044810808}
+  - component: {fileID: 7252719896725926067}
+  m_Layer: 6
+  m_Name: ItemPicker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2785928122776293956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5708525178404487405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2215558342421072867}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &8566065436044810808
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5708525178404487405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &7252719896725926067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5708525178404487405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a702c6b7db0f1f144a2215495050811f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectedItems: 
 --- !u!1 &8379309498194837954
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +372,7 @@ GameObject:
   - component: {fileID: 9104638024366892436}
   m_Layer: 0
   m_Name: Rabbit
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
