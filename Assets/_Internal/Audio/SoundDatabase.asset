@@ -13,9 +13,31 @@ MonoBehaviour:
   m_Name: SoundDatabase
   m_EditorClassIdentifier: 
   soundData:
-  - soundEvent: 0
+  - audioEvent: 0
     audioClip: {fileID: 8300000, guid: 9da2125a9405813429dda67e3f802b9f, type: 3}
     volume: 0.5
-  - soundEvent: 1
+  - audioEvent: 1
     audioClip: {fileID: 8300000, guid: 5a9b0c36f855ae748866f5349cc23da4, type: 3}
+    volume: 0.5
+  musicData:
+  - audioEvent: 0
+    audioClip: {fileID: 8300000, guid: b58785c4a43edd745bef2e0babf48e2d, type: 3}
+    volume: 0.5
+  - audioEvent: 1
+    audioClip: {fileID: 8300000, guid: 4dc3e0653364338499f6158a11a02a64, type: 3}
+    volume: 0.5
+  - audioEvent: 2
+    audioClip: {fileID: 8300000, guid: 48632bca6f1192e4c80365a86fb1089e, type: 3}
+    volume: 0.5
+  - audioEvent: 3
+    audioClip: {fileID: 8300000, guid: 74790bc37eab9844cbb6aafd87c6fc4c, type: 3}
+    volume: 0.5
+  - audioEvent: 4
+    audioClip: {fileID: 8300000, guid: b96f6b10c593535479dd04b4120a86ed, type: 3}
+    volume: 0.5
+  - audioEvent: 5
+    audioClip: {fileID: 8300000, guid: 8a6116b42bb610343953f34377ea2b20, type: 3}
+    volume: 0.5
+  - audioEvent: 6
+    audioClip: {fileID: 8300000, guid: d2c8c6838c5841b4b9f1303466b62155, type: 3}
     volume: 0.5

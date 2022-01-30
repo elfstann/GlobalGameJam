@@ -48,6 +48,7 @@ MonoBehaviour:
   musicPlayer: {fileID: 7164873617983508644}
   soundPlayer: {fileID: 7164873619033979224}
   audioDatabase: {fileID: 11400000, guid: 50c3efe94c8a9a244bc6b5140b993f24, type: 2}
+  fadeDuration: 0.4
 --- !u!1 &7164873617983508645
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b58785c4a43edd745bef2e0babf48e2d, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1

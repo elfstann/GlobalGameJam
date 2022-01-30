@@ -13,7 +13,6 @@ public enum SceneIndex
 public static class SceneLoader
 {
     private static TransitionHandler transition;
-    private static AsyncOperation sceneLoading;
 
     private static void CheckBlack()
     {
@@ -39,7 +38,6 @@ public static class SceneLoader
 
     public static void LoadMenu()
     {
-        //SoundSystems.Instance.StopMusic();
         LoadWithTransition(SceneIndex.Menu);
     }
 

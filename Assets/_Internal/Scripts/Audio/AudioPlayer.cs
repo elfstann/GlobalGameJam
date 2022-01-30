@@ -3,14 +3,18 @@ using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class AudioPlayer : MonoBehaviour
 {
     [SerializeField] private AudioSource musicPlayer;
     [SerializeField] private AudioSource soundPlayer;
     [SerializeField] private SoundDatabase audioDatabase;
+    [SerializeField] private float fadeDuration = 0.4f;
 
     public static AudioPlayer Instance { get; private set; }
+
+    public bool IsMusicPlaying => musicPlayer.isPlaying;
 
     private void Awake()
     {
@@ -24,9 +28,33 @@ public class AudioPlayer : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-    public void PlayMusic()
+    public void PlayMusic(MusicEvent musicEvent, bool isLoop = false)
     {
-        musicPlayer.Play();
+        var data = audioDatabase.GetMusic(musicEvent);
+        if (data == null)
+        {
+            Debug.LogWarning($"No data for '{musicEvent}' event");
+            return;
+        }
+
+        musicPlayer.DOComplete(true);
+        musicPlayer.DOFade(0.0f, fadeDuration).OnComplete(() =>
+        {
+            musicPlayer.clip = data.audioClip;
+            musicPlayer.Play();
+            musicPlayer.loop = isLoop;
+            musicPlayer.DOFade(data.volume, fadeDuration);
+        });
+    }
+
+    public void StopMusic()
+    {
+        musicPlayer
+            .DOFade(0.0f, fadeDuration)
+            .OnComplete(() =>
+            {
+                musicPlayer.Stop();
+            });
     }
 
     public void PlaySound(SoundEvent soundEvent)
