@@ -94,6 +94,9 @@ public class PlayerController : Singleton<PlayerController>
         _currentMaxAcceleration = maxAcceleration;
         _currentMaxSpeed = maxSpeed;
 
+        rabbitHealthController.OnCharacterDead += OnRabbitDeath;
+        bearHealthController.OnCharacterDead += OnBearDeath;
+
         PauseManager.Instance.OnGamePaused += PausePlayer;
     }
 
@@ -220,6 +223,7 @@ public class PlayerController : Singleton<PlayerController>
     private IEnumerator StartJump()
     {
         rabbitAnimator.SetTrigger("Jump");
+        if (AudioPlayer.Instance != null) AudioPlayer.Instance.PlaySound(SoundEvent.Jump);
 
         yield return new WaitForSeconds(1f / 6f);
         
@@ -304,6 +308,16 @@ public class PlayerController : Singleton<PlayerController>
 
         shakeTime -= Time.deltaTime;
         if(shakeTime<=0f) perlin.m_AmplitudeGain = 0;
+    }
+
+    private void OnRabbitDeath()
+    {
+        if (AudioPlayer.Instance != null) AudioPlayer.Instance.PlaySound(SoundEvent.DeathRabbit);
+    }
+
+    private void OnBearDeath()
+    {
+        if (AudioPlayer.Instance != null) AudioPlayer.Instance.PlaySound(SoundEvent.DeathBear);
     }
 
     private void OnDestroy()

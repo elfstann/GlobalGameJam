@@ -24,7 +24,13 @@ public class SoundDatabase : ScriptableObject
 public enum SoundEvent
 {
     StartClicked,
-    ButtonClicked
+    ButtonClicked,
+    DeathRabbit,
+    DeathBear,
+    Jump,
+    Walk,
+    TrapIce,
+    TrapRock
 }
 
 public enum MusicEvent

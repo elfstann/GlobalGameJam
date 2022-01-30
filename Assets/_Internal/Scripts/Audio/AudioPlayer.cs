@@ -47,16 +47,6 @@ public class AudioPlayer : MonoBehaviour
         });
     }
 
-    public void StopMusic()
-    {
-        musicPlayer
-            .DOFade(0.0f, fadeDuration)
-            .OnComplete(() =>
-            {
-                musicPlayer.Stop();
-            });
-    }
-
     public void PlaySound(SoundEvent soundEvent)
     {
         var data = audioDatabase.GetSound(soundEvent);
@@ -67,6 +57,16 @@ public class AudioPlayer : MonoBehaviour
         }
 
         soundPlayer.PlayOneShot(data.audioClip, data.volume);
+    }
+
+    public void StopMusic()
+    {
+        musicPlayer
+            .DOFade(0.0f, fadeDuration)
+            .OnComplete(() =>
+            {
+                musicPlayer.Stop();
+            });
     }
 
     private void OnMusicMute(bool value)

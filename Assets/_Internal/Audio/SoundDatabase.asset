@@ -19,6 +19,21 @@ MonoBehaviour:
   - audioEvent: 1
     audioClip: {fileID: 8300000, guid: 5a9b0c36f855ae748866f5349cc23da4, type: 3}
     volume: 0.5
+  - audioEvent: 2
+    audioClip: {fileID: 8300000, guid: 5ffb2789eb9e4744bb388b447ea9979b, type: 3}
+    volume: 0.5
+  - audioEvent: 3
+    audioClip: {fileID: 8300000, guid: f1e381d574f2f8545a700ae31565bec9, type: 3}
+    volume: 0.5
+  - audioEvent: 4
+    audioClip: {fileID: 8300000, guid: 55053b20f4abc8341b2ace586481368b, type: 3}
+    volume: 0.5
+  - audioEvent: 6
+    audioClip: {fileID: 8300000, guid: 24eb77b75c08fdb44bb32c62c9912648, type: 3}
+    volume: 0.5
+  - audioEvent: 7
+    audioClip: {fileID: 8300000, guid: dc0bd531b2c16be4b90411e717a28cf6, type: 3}
+    volume: 0.5
   musicData:
   - audioEvent: 0
     audioClip: {fileID: 8300000, guid: b58785c4a43edd745bef2e0babf48e2d, type: 3}
