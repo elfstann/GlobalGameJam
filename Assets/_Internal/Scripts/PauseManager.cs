@@ -16,6 +16,7 @@ public class PauseManager : Singleton<PauseManager>
         }
         else
         {
+            popupHandler.CloseCurrent();
             OnGamePaused?.Invoke(toggle);
         }
     }
