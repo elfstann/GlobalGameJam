@@ -20,6 +20,7 @@ public class IcecleTrap : BaseTrap
     {
         base.TriggerTrap();
         Debug.Log("Triggered");
+        if (AudioPlayer.Instance != null) AudioPlayer.Instance.PlaySound(SoundEvent.TrapIce);
         icecleSprite.sprite = icecleOnFallSprite;
         icicleRigidbody.gravityScale = 1f;
     }

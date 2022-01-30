@@ -1329,6 +1329,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2032149304}
     m_Modifications:
+    - target: {fileID: 2219355779421853810, guid: a830e2334f36f9d4593e6c65af95557b, type: 3}
+      propertyPath: m_text
+      value: "<b>Executive Producer\r</b>\nMarta \u201Celfstann\u201D Vitos\r\n\r\n<b>Project
+        Manager\r\r</b>\n\u0421\u0432\u044F\u0442\u043E\u0441\u043B\u0430\u0432 \"kolobok\"
+        \u0427\u0435\u0440\u0435\u0434\u043D\u0438\u0447\u0435\u043D\u043A\u043E\n\r\n<b>Programming\r</b>\r\nMarta
+        \"elfstann\" Vitos\nMykhailo \"Meymor\" Cherniev\nDmytro \"unlugir\" Herasymchyk\nAlexander
+        \"Sonder\" Ustymenko\r\nKlochak \"Sergan4ik\" Sergiy\n\r\n<b>Game Design\r</b>\r\nDmytro
+        \"unlugir\" Herasymchyk <3\nRudenko Yaroslav \"evilcookie\"\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 8245003043395855448, guid: a830e2334f36f9d4593e6c65af95557b, type: 3}
       propertyPath: m_Name
       value: CreditsPopup

@@ -10,7 +10,8 @@ public enum PopupName
 {
     Credits = 1,
     Pause = 2,
-    Death = 3
+    Death = 3,
+    Win = 4
 }
 
 public class PopupHandler : MonoBehaviour
