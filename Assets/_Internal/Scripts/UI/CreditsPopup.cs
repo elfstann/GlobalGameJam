@@ -9,17 +9,17 @@ public class CreditsPopup : Popup
 
     private void Awake()
     {
-        exitButton.onClick.AddListener(OnCloseClick);
-        fader.OnClickEvent += OnCloseClick;
+        exitButton.onClick.AddListener(OnCloseClicked);
+        fader.OnClickEvent += OnCloseClicked;
     }
 
     private void OnDestroy()
     {
-        exitButton.onClick.RemoveListener(OnCloseClick);
-        fader.OnClickEvent -= OnCloseClick;
+        exitButton.onClick.RemoveListener(OnCloseClicked);
+        fader.OnClickEvent -= OnCloseClicked;
     }
 
-    private void OnCloseClick()
+    private void OnCloseClicked()
     {
         Close();
     }

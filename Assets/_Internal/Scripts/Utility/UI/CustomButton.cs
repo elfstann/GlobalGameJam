@@ -21,6 +21,8 @@ public class CustomButton : Button
 
     private void PlaySound()
     {
+        if (AudioPlayer.Instance == null) return;
+
         AudioPlayer.Instance.PlaySound(SoundEvent.ButtonClicked);
     }
 }

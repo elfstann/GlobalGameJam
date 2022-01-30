@@ -8,7 +8,8 @@ using UnityEngine.UI;
 
 public enum PopupName
 {
-    Credits = 1
+    Credits = 1,
+    Pause = 2
 }
 
 public class PopupHandler : MonoBehaviour
@@ -58,7 +59,7 @@ public class PopupHandler : MonoBehaviour
         currentlyOpen = null;
     }
 
-    public void Open(PopupName name)
+    public void Open(PopupName name, Action<Popup> init = null)
     {
         // Check for currently open
         if (currentlyOpen != null && currentlyOpen.gameObject.activeInHierarchy == true)
@@ -83,7 +84,7 @@ public class PopupHandler : MonoBehaviour
 
         // Open
         popup.CanvasGroup.alpha = 0.0f;
-
+        init?.Invoke(popup);
         popup.Open();
 
         if (openSequence != null) openSequence.Kill();

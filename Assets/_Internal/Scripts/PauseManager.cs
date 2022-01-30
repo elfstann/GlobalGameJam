@@ -5,12 +5,18 @@ using UnityEngine;
 
 public class PauseManager : Singleton<PauseManager>
 {
-    public Action<bool> onGamePaused;
-    [SerializeField] GameObject pauseScreen;
+    public event Action<bool> OnGamePaused;
+    [SerializeField] private PopupHandler popupHandler;
 
     public void PauseGame(bool toggle)
     {
-        onGamePaused?.Invoke(toggle);
-        pauseScreen.SetActive(toggle);
+        if (toggle)
+        {
+            popupHandler.Open(PopupName.Pause, _ => OnGamePaused?.Invoke(toggle));
+        }
+        else
+        {
+            OnGamePaused?.Invoke(toggle);
+        }
     }
 }

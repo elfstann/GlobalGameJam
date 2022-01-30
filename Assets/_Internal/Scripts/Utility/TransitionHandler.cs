@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ public class TransitionHandler : MonoBehaviour
     [SerializeField] private CanvasGroup canvasGroup;
     [SerializeField] private float fadeInDuration = 0.5f;
     [SerializeField] private float fadeOutDuration = 1.5f;
-    [SerializeField] private bool sin = true;
+    private readonly Ease ease = Ease.OutSine;
 
     public void DoTransition(SceneIndex sceneName)
     {
@@ -18,11 +19,15 @@ public class TransitionHandler : MonoBehaviour
 
     private IEnumerator TransitionRoutine(SceneIndex sceneName, Action onSceneLoaded = null)
     {
+        // Fade in
         canvasGroup.blocksRaycasts = true;
-        yield return Fade(0.0f, 1.0f, fadeInDuration);
+        canvasGroup.alpha = 0.0f;
+        var fadeInTween = canvasGroup.DOFade(1.0f, fadeInDuration).SetEase(ease);
+        yield return fadeInTween.WaitForCompletion();
+
+        // Load scene
         var sceneLoading = SceneManager.LoadSceneAsync((int)sceneName, LoadSceneMode.Single);
         sceneLoading.allowSceneActivation = false;
-
         sceneLoading.allowSceneActivation = true;
         while (!sceneLoading.isDone)
         {
@@ -30,25 +35,13 @@ public class TransitionHandler : MonoBehaviour
         }
 
         onSceneLoaded?.Invoke();
-        yield return Fade(1.0f, 0.0f, fadeOutDuration);
+
+        // Fade out
         canvasGroup.blocksRaycasts = false;
+        canvasGroup.alpha = 1.0f;
+        var fadeOutTween = canvasGroup.DOFade(0.0f, fadeOutDuration).SetEase(ease);
+        yield return fadeOutTween.WaitForCompletion();
+
     }
-
-    private IEnumerator Fade(float from, float to, float duration)
-    {
-        float time = 0.0f;
-        canvasGroup.alpha = from;
-
-        while (time < duration)
-        {
-            var t = time / duration;
-            t = sin ? Mathf.Sin(t * Mathf.PI * 0.5f) : 1f - Mathf.Cos(t * Mathf.PI * 0.5f);
-            canvasGroup.alpha = Mathf.Lerp(from, to, t);
-            time += Time.deltaTime;
-            yield return null;
-        }
-        canvasGroup.alpha = to;
-    }
-
 
 }

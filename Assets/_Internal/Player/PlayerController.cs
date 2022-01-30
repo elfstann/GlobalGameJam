@@ -94,7 +94,7 @@ public class PlayerController : Singleton<PlayerController>
         _currentMaxAcceleration = maxAcceleration;
         _currentMaxSpeed = maxSpeed;
 
-        PauseManager.Instance.onGamePaused += PausePlayer;
+        PauseManager.Instance.OnGamePaused += PausePlayer;
     }
 
     private void Start()
@@ -308,7 +308,7 @@ public class PlayerController : Singleton<PlayerController>
 
     private void OnDestroy()
     {
-        PauseManager.Instance.onGamePaused -= PausePlayer;
+        PauseManager.Instance.OnGamePaused -= PausePlayer;
     }
 
 }

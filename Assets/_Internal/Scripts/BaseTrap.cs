@@ -18,7 +18,7 @@ public abstract class BaseTrap : MonoBehaviour
         if (trapCollider == null)
             trapCollider = GetComponent<Collider2D>();
 
-        PauseManager.Instance.onGamePaused += PauseTrapPhysics;
+        PauseManager.Instance.OnGamePaused += PauseTrapPhysics;
     }
 
     private void PauseTrapPhysics(bool state)
@@ -51,6 +51,6 @@ public abstract class BaseTrap : MonoBehaviour
 
     private void OnDestroy()
     {
-        PauseManager.Instance.onGamePaused -= PauseTrapPhysics;
+        PauseManager.Instance.OnGamePaused -= PauseTrapPhysics;
     }
 }
