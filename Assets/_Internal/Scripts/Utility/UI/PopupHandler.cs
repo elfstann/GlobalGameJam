@@ -9,7 +9,8 @@ using UnityEngine.UI;
 public enum PopupName
 {
     Credits = 1,
-    Pause = 2
+    Pause = 2,
+    Death = 3
 }
 
 public class PopupHandler : MonoBehaviour

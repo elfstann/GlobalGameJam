@@ -20,4 +20,9 @@ public class PauseManager : Singleton<PauseManager>
             OnGamePaused?.Invoke(toggle);
         }
     }
+
+    public void EndGame()
+    {
+        popupHandler.Open(PopupName.Death, _ => OnGamePaused?.Invoke(true));
+    }
 }
