@@ -21,6 +21,11 @@ public class PauseManager : Singleton<PauseManager>
         }
     }
 
+    public void WinGame()
+    {
+        popupHandler.Open(PopupName.Win, _ => OnGamePaused?.Invoke(true));
+    }
+
     public void EndGame()
     {
         popupHandler.Open(PopupName.Death, _ => OnGamePaused?.Invoke(true));
