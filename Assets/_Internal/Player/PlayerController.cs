@@ -169,6 +169,7 @@ public class PlayerController : Singleton<PlayerController>
         input.Player.Sprint.Enable();
         input.Player.Fire.Enable();
         input.Player.SwapHero.Enable();
+        input.Player.OpenTutor.Enable();
     }
 
     private void SubscribeAllActions()
@@ -179,6 +180,13 @@ public class PlayerController : Singleton<PlayerController>
         input.Player.Sprint.performed += Sprint;
         input.Player.Fire.performed += Fire;
         input.Player.SwapHero.performed += SwapHero;
+        input.Player.OpenTutor.performed += OpenTutor;
+    }
+
+    void OpenTutor(InputAction.CallbackContext obj)
+    {
+        //This is shit but i don't care now :)
+        PauseManager.Instance.GetTutor();
     }
 
     private void UnsubscribeAllActions()
@@ -189,6 +197,7 @@ public class PlayerController : Singleton<PlayerController>
         input.Player.Sprint.performed -= Sprint;
         input.Player.Fire.performed -= Fire;
         input.Player.SwapHero.performed -= SwapHero;
+        input.Player.OpenTutor.performed -= OpenTutor;
     }
 
     private void SwapHero(InputAction.CallbackContext obj)

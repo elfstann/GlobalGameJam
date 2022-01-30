@@ -8,6 +8,11 @@ public class PauseManager : Singleton<PauseManager>
     public event Action<bool> OnGamePaused;
     [SerializeField] private PopupHandler popupHandler;
 
+    private void Start()
+    {
+        GetTutor();
+    }
+
     public void PauseGame(bool toggle)
     {
         if (toggle)
@@ -18,6 +23,19 @@ public class PauseManager : Singleton<PauseManager>
         {
             popupHandler.CloseCurrent();
             OnGamePaused?.Invoke(toggle);
+        }
+    }
+
+    public void GetTutor()
+    {
+        if (popupHandler.currentlyOpen == null)
+        {
+            popupHandler.Open(PopupName.GameInfo, _ => OnGamePaused?.Invoke(true));
+        }
+        else
+        {
+            popupHandler.CloseCurrent();
+            OnGamePaused?.Invoke(false);
         }
     }
 

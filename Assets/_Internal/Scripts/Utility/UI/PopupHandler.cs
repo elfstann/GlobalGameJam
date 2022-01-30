@@ -11,7 +11,8 @@ public enum PopupName
     Credits = 1,
     Pause = 2,
     Death = 3,
-    Win = 4
+    Win = 4,
+    GameInfo = 5
 }
 
 public class PopupHandler : MonoBehaviour
@@ -25,7 +26,7 @@ public class PopupHandler : MonoBehaviour
     private Sequence openSequence;
     private Sequence closeSequence;
 
-    private Popup currentlyOpen;
+    public Popup currentlyOpen;
 
     private void Awake()
     {
