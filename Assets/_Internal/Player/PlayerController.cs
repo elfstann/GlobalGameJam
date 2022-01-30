@@ -234,7 +234,6 @@ public class PlayerController : Singleton<PlayerController>
     private IEnumerator StartJump()
     {
         rabbitAnimator.SetTrigger("Jump");
-        if (AudioPlayer.Instance != null) AudioPlayer.Instance.PlaySound(SoundEvent.Jump);
 
         yield return new WaitForSeconds(1f / 6f);
 
