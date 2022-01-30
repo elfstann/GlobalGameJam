@@ -1,5 +1,52 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &571549002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 571549003}
+  - component: {fileID: 571549004}
+  m_Layer: 0
+  m_Name: TackleCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &571549003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571549002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 906453293517089856}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &571549004
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571549002}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.6628928, y: 1.407549}
+  m_Size: {x: 6.855249, y: 2.6103399}
+  m_Direction: 1
 --- !u!1 &748394915945698822
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,6 +58,7 @@ GameObject:
   - component: {fileID: 1701007230683975605}
   - component: {fileID: 6046103741908655575}
   - component: {fileID: 1454932255844486567}
+  - component: {fileID: 293544423}
   m_Layer: 0
   m_Name: Bear
   m_TagString: Untagged
@@ -102,6 +150,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &293544423
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748394915945698822}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: cb3580f7400a22043a921e1b0392e7ad, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 4.1}
+  m_Size: {x: 4.4687285, y: 8.248694}
+  m_Direction: 0
 --- !u!1 &2215558342421072868
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,11 +214,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHero: 0
-  bearAnimator: {fileID: 0}
-  rabbitAnimator: {fileID: 0}
+  bearAnimator: {fileID: 6046103741908655575}
+  rabbitAnimator: {fileID: 8911005819305817586}
   material2D: {fileID: 6200000, guid: cb3580f7400a22043a921e1b0392e7ad, type: 2}
   rigidBody: {fileID: 2215558342421072864}
   player: {fileID: 2215558342421072867}
+  rabbitCollider: {fileID: 0}
+  rabbitTackleCollider: {fileID: 0}
   groundMask:
     serializedVersion: 2
     m_Bits: 128
@@ -183,18 +249,20 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   maxAcceleration: 27
-  maxSpeed: 6
+  maxSpeed: 8
   reactiveCoefficient: 2.5
   airDragCoefficient: 0.3
-  sprintMultiplier: 1.7
+  sprintMultiplier: 1.5
   underObjectFindDistance: 0.5
   jumpHeight: 2
   jumpCooldown: 0.25
-  safeJumpDelay: 0.2
+  safeJumpDelay: 0.15
   positionsSavingTimeInterval: 0.1
   groundCheckDistance: -0.2
   groundCheckRadius: 0.34
   maxHeightGizmoRadius: 0.2
+  tackleSpeedCoef: 2
+  tackleCoolDown: 3
 --- !u!114 &2215558342421072866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +343,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.24299166, y: 0.24299166, z: 0.24299166}
-  m_Children: []
+  m_Children:
+  - {fileID: 571549003}
   m_Father: {fileID: 2215558342421072867}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -362,6 +431,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 5.7363987}
-  m_Size: {x: 5.92, y: 11.472801}
+  m_Offset: {x: 0, y: 4.1}
+  m_Size: {x: 4.4687285, y: 8.248694}
   m_Direction: 0

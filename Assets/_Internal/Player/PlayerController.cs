@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     public PhysicsMaterial2D material2D;
     public Rigidbody2D rigidBody;
     public Transform player;
+    public Collider2D rabbitCollider;
+    public Collider2D rabbitTackleCollider;
     
     public LayerMask groundMask;
 
@@ -50,7 +52,10 @@ public class PlayerController : MonoBehaviour
     [Space]
     [Header("Gizmo settings")]
     public float maxHeightGizmoRadius = 1;
-    
+
+    [Space] [Header("Gizmo settings")] 
+    public float tackleSpeedCoef = 2;
+    public float tackleCoolDown = 3;
     
     private Vector2 _moveDirection = Vector2.zero;
     private float _currentPositionOnCurve = 0;
@@ -59,6 +64,7 @@ public class PlayerController : MonoBehaviour
     private Queue<(Vector3 , float)> _positionsSnapshot = new Queue<(Vector3, float)>();
     private float _currentMaxSpeed;
     private float _currentMaxAcceleration;
+    private float _currentTackleCooldown = 0;
     
     
     private PlayerInputScheme input;
@@ -93,6 +99,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        _currentTackleCooldown = Mathf.Clamp(_currentTackleCooldown + Time.deltaTime , 0 ,tackleCoolDown);
+        
         if (rigidBody.velocity.x < -0.01)
             transform.rotation = Quaternion.Euler(0, 180, 0);
         else if (rigidBody.velocity.x > 0.01)
@@ -129,6 +137,7 @@ public class PlayerController : MonoBehaviour
         input.Player.Sprint.Enable();
         input.Player.Fire.Enable();
         input.Player.SwapHero.Enable();
+        input.Player.Tackle.Enable();
     }
 
     private void SubscribeAllActions()
@@ -139,6 +148,18 @@ public class PlayerController : MonoBehaviour
         input.Player.Sprint.performed += Sprint;
         input.Player.Fire.performed += Fire;
         input.Player.SwapHero.performed += SwapHero;
+        input.Player.Tackle.performed += Tackle;
+    }
+
+    private void Tackle(InputAction.CallbackContext obj)
+    {
+        if (!IsLanded(player.position) || _currentTackleCooldown < tackleCoolDown) return;
+
+        _currentTackleCooldown = 0;
+        var newVelocity = rigidBody.velocity;
+        newVelocity.x *= tackleSpeedCoef;
+        rigidBody.velocity = newVelocity;
+        rabbitAnimator.SetTrigger("Tackle");
     }
 
     private void SwapHero(InputAction.CallbackContext obj)

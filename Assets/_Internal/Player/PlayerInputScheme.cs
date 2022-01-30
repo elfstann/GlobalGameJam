@@ -80,6 +80,15 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Tackle"",
+                    ""type"": ""Button"",
+                    ""id"": ""ab36ae86-97b3-402e-997f-71b448b4b83e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -333,6 +342,17 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""SwapHero"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2f4deff7-97d3-44e1-b85c-953ddef8ed81"",
+                    ""path"": ""<Keyboard>/leftCtrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Tackle"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -926,6 +946,7 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
         m_Player_SwapHero = m_Player.FindAction("SwapHero", throwIfNotFound: true);
+        m_Player_Tackle = m_Player.FindAction("Tackle", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1003,6 +1024,7 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Sprint;
     private readonly InputAction m_Player_SwapHero;
+    private readonly InputAction m_Player_Tackle;
     public struct PlayerActions
     {
         private @PlayerInputScheme m_Wrapper;
@@ -1013,6 +1035,7 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
         public InputAction @SwapHero => m_Wrapper.m_Player_SwapHero;
+        public InputAction @Tackle => m_Wrapper.m_Player_Tackle;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1040,6 +1063,9 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                 @SwapHero.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSwapHero;
                 @SwapHero.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSwapHero;
                 @SwapHero.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSwapHero;
+                @Tackle.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTackle;
+                @Tackle.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTackle;
+                @Tackle.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTackle;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1062,6 +1088,9 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                 @SwapHero.started += instance.OnSwapHero;
                 @SwapHero.performed += instance.OnSwapHero;
                 @SwapHero.canceled += instance.OnSwapHero;
+                @Tackle.started += instance.OnTackle;
+                @Tackle.performed += instance.OnTackle;
+                @Tackle.canceled += instance.OnTackle;
             }
         }
     }
@@ -1224,6 +1253,7 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnSprint(InputAction.CallbackContext context);
         void OnSwapHero(InputAction.CallbackContext context);
+        void OnTackle(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
