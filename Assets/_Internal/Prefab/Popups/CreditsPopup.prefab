@@ -283,7 +283,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 20
   m_TargetDisplay: 0
@@ -617,6 +617,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
+      propertyPath: m_text
+      value: "<b>Executive Producer\r</b>\nMarta \u201Celfstann\u201D Vitos\r\n\r\n<b>Project
+        Manager\r\r</b>\n-\n\r\n<b>Programming\r</b>\r\nMarta \"elfstann\" Vitos\nMykhailo
+        \"Meymor\" Cherniev\nDmytro \"unlugir\" Herasymchyk\nAlexander \"Sonder\"
+        Ustymenko\r\nSerg \"sergan4ik\"\n\r\n<b>Game Design\r</b>\r\nRudenko Yaroslav
+        \"evilcookie\"\r\n\n<b>Narrative Design\r</b>\r\n-"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
+      propertyPath: m_fontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
 --- !u!224 &3810761610358604711 stripped
@@ -657,7 +677,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6416575213943397621, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.55
+      value: 0.465
       objectReference: {fileID: 0}
     - target: {fileID: 6416575213943397621, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
       propertyPath: m_AnchorMin.y
@@ -721,15 +741,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
       propertyPath: m_text
-      value: "<b>Enviroment Art, Animation</b>\r\nKsenia \"Ve_ret\" Veretska\r\n\r\r\n<b>Intro
-        Art, Character Art</b>\r\nNataliia \"BARVA\" Zhdanova\r\n\r\n<b>UI Design\r</b>\nIryna
-        \"Tommeli\" Ponomarenko\r\n\r\n<b>Music and SFX\r</b>\nMaxim \"Zedway\" Poshkurlat\r\n\r\n<b>Narrative
-        Design\r</b>\nOleksandr \u201CCandleLight\u201D Nikolaienko\r\n\r\n<b>Localization\r</b>\nYaroslav
-        \xABevilcookie\xBB Rudenko\r\nAlexandra \"Ellinee\" Konovalova\r\n\r\n"
+      value: "<b>2D, Enviroment Art</b>\r\nKsenia \u201CVe_ret\u201D Veretska\r\nNataliia
+        \"BARVA\" Zhdanova \r\nIryna \"Tommeli\" Ponomarenko\nMaria \"naet\" Lelikova\nKateryna
+        \"KiddiBam\" Balyk\r\r\n\n<b>Character Art, UI Design, Animation</b>\r\nKsenia
+        \"Ve_ret\" Veretska\r\n\r\r\n<b>Autro  Art</b>\r\nNataliia \"BARVA\" Zhdanova\r\n\r\n<b>Composer</b>\nLeontiy
+        \"Sosiskomag\" Shtokolenko \n\r\n<b>SFX\r</b>\nMaxim \"Zedway\" Poshkurlat\r\n\r"
       objectReference: {fileID: 0}
     - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
       propertyPath: m_fontSize
-      value: 28.35
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296323227653015328, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7dd71a4b739c82448c0b865ab281d9d, type: 3}
