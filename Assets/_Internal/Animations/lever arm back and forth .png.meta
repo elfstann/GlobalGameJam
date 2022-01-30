@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 46524af5d45a0a44596ec6d1ed38669b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 193850340990944221
+    second: lever arm back and forth _0
+  - first:
+      213: 537917997687129876
+    second: lever arm back and forth _1
+  - first:
+      213: 4131908160601047981
+    second: lever arm back and forth _2
+  - first:
+      213: 8515197362170994747
+    second: lever arm back and forth _3
+  - first:
+      213: -4512158522972804871
+    second: lever arm back and forth _4
+  - first:
+      213: -406994573755015083
+    second: lever arm back and forth _5
+  - first:
+      213: -1273964394853413373
+    second: lever arm back and forth _6
+  - first:
+      213: 7263481573455130352
+    second: lever arm back and forth _7
+  - first:
+      213: 2546847193770419493
+    second: lever arm back and forth _8
+  - first:
+      213: 7026474188893714050
+    second: lever arm back and forth _9
+  - first:
+      213: 4171000832857825582
+    second: lever arm back and forth _10
+  - first:
+      213: -7825471741933340440
+    second: lever arm back and forth _11
+  - first:
+      213: 7519814554426949930
+    second: lever arm back and forth _12
+  - first:
+      213: -8281437503376543428
+    second: lever arm back and forth _13
+  - first:
+      213: 3233404643708494277
+    second: lever arm back and forth _14
+  - first:
+      213: -4003907325962730088
+    second: lever arm back and forth _15
+  - first:
+      213: -1224687748375647409
+    second: lever arm back and forth _16
+  - first:
+      213: -6196624173100759558
+    second: lever arm back and forth _17
+  - first:
+      213: 6020825807592841291
+    second: lever arm back and forth _18
+  - first:
+      213: -2490108503197044802
+    second: lever arm back and forth _19
+  - first:
+      213: -1502309369856001754
+    second: lever arm back and forth _20
+  - first:
+      213: -6058173663165113675
+    second: lever arm back and forth _21
+  - first:
+      213: -6162830453978748932
+    second: lever arm back and forth _22
+  - first:
+      213: -6591219473169570847
+    second: lever arm back and forth _23
+  - first:
+      213: 3101026944054515643
+    second: lever arm back and forth _24
+  - first:
+      213: 2508157567764667961
+    second: lever arm back and forth _25
+  - first:
+      213: -5118168069221174676
+    second: lever arm back and forth _26
+  - first:
+      213: -2052884369606590496
+    second: lever arm back and forth _27
+  - first:
+      213: 5230928206691679690
+    second: lever arm back and forth _28
+  - first:
+      213: -9041495629765162738
+    second: lever arm back and forth _29
+  - first:
+      213: 3034878637412985020
+    second: lever arm back and forth _30
+  - first:
+      213: -1084368874367176082
+    second: lever arm back and forth _31
+  - first:
+      213: -2263886882962604962
+    second: lever arm back and forth _32
+  - first:
+      213: -5372651562049606555
+    second: lever arm back and forth _33
+  - first:
+      213: 1301826858874630677
+    second: lever arm back and forth _34
+  - first:
+      213: 7272853990098640751
+    second: lever arm back and forth _35
+  - first:
+      213: 3034012152253443687
+    second: lever arm back and forth _36
+  - first:
+      213: -1053356563605413419
+    second: lever arm back and forth _37
+  - first:
+      213: -1585328319252089567
+    second: lever arm back and forth _38
+  - first:
+      213: -1014721975293490490
+    second: lever arm back and forth _39
+  - first:
+      213: 8867793776997168542
+    second: lever arm back and forth _40
+  - first:
+      213: -6304389595341308794
+    second: lever arm back and forth _41
+  - first:
+      213: -1352222087249265604
+    second: lever arm back and forth _42
+  - first:
+      213: -459267125859912218
+    second: lever arm back and forth _43
+  - first:
+      213: 5381408532474405765
+    second: lever arm back and forth _44
+  - first:
+      213: -6321709240993142988
+    second: lever arm back and forth _45
+  - first:
+      213: 5208572102651994760
+    second: lever arm back and forth _46
+  - first:
+      213: -8677156785305796524
+    second: lever arm back and forth _47
+  - first:
+      213: -1709796585366940318
+    second: lever arm back and forth _48
+  - first:
+      213: 367291800881620226
+    second: lever arm back and forth _49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lever arm back and forth _0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd38a5aabd1b0b200800000000000000
+      internalID: 193850340990944221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _1
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4174e62a191177700800000000000000
+      internalID: 537917997687129876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _2
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3c92d849c775930800000000000000
+      internalID: 4131908160601047981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _3
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30ab8ca2ee0c2670800000000000000
+      internalID: 8515197362170994747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _4
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f864f3dab79161c0800000000000000
+      internalID: -4512158522972804871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _5
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55022dd67901a5af0800000000000000
+      internalID: -406994573755015083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _6
+      rect:
+        serializedVersion: 2
+        x: 8586
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e4444f128f15ee0800000000000000
+      internalID: -1273964394853413373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _7
+      rect:
+        serializedVersion: 2
+        x: 10017
+        y: 6774
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe636ae1021dc460800000000000000
+      internalID: 7263481573455130352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525e2e96708385320800000000000000
+      internalID: 2546847193770419493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _9
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286f5740c0d038160800000000000000
+      internalID: 7026474188893714050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _10
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e216958982f52e930800000000000000
+      internalID: 4171000832857825582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _11
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8b43e69e6566390800000000000000
+      internalID: -7825471741933340440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _12
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a214e6dde7fbb5860800000000000000
+      internalID: 7519814554426949930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _13
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31b4a5b77c621d80800000000000000
+      internalID: -8281437503376543428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _14
+      rect:
+        serializedVersion: 2
+        x: 8586
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1e753646c5fdc20800000000000000
+      internalID: 3233404643708494277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _15
+      rect:
+        serializedVersion: 2
+        x: 10017
+        y: 5645
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895486a20834f68c0800000000000000
+      internalID: -4003907325962730088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4beb454bf8010fe0800000000000000
+      internalID: -1224687748375647409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _17
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af50bbb452b210aa0800000000000000
+      internalID: -6196624173100759558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _18
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40631c1c254e8350800000000000000
+      internalID: 6020825807592841291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _19
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfa2ce628b517dd0800000000000000
+      internalID: -2490108503197044802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _20
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629fdf27699b62be0800000000000000
+      internalID: -1502309369856001754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _21
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba9a63a62b0deba0800000000000000
+      internalID: -6058173663165113675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _22
+      rect:
+        serializedVersion: 2
+        x: 8586
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf723abaa5a397aa0800000000000000
+      internalID: -6162830453978748932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _23
+      rect:
+        serializedVersion: 2
+        x: 10017
+        y: 4516
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e327199fc84784a0800000000000000
+      internalID: -6591219473169570847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7d84f539f090b20800000000000000
+      internalID: 3101026944054515643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _25
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e1253e404cec220800000000000000
+      internalID: 2508157567764667961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _26
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62335d124d98f8b0800000000000000
+      internalID: -5118168069221174676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _27
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efb5a0ea80b283e0800000000000000
+      internalID: -2052884369606590496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _28
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdbd654d7df79840800000000000000
+      internalID: 5230928206691679690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _29
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09c99de0a7268280800000000000000
+      internalID: -9041495629765162738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _30
+      rect:
+        serializedVersion: 2
+        x: 8586
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb82c6f8a0e0e1a20800000000000000
+      internalID: 3034878637412985020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _31
+      rect:
+        serializedVersion: 2
+        x: 10017
+        y: 3387
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62bad5014c83f0f0800000000000000
+      internalID: -1084368874367176082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cf851efde0590e0800000000000000
+      internalID: -2263886882962604962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _33
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ce51eaed18075b0800000000000000
+      internalID: -5372651562049606555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _34
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512f84a71a4011210800000000000000
+      internalID: 1301826858874630677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _35
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f9c17bb2e5ee460800000000000000
+      internalID: 7272853990098640751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _36
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ee8434af9fa1a20800000000000000
+      internalID: 3034012152253443687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _37
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1297c49c9b161f0800000000000000
+      internalID: -1053356563605413419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _38
+      rect:
+        serializedVersion: 2
+        x: 8586
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125bc960b48cff9e0800000000000000
+      internalID: -1585328319252089567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _39
+      rect:
+        serializedVersion: 2
+        x: 10017
+        y: 2258
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca49dc5dbbfae1f0800000000000000
+      internalID: -1014721975293490490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95f553e47bb01b70800000000000000
+      internalID: 8867793776997168542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _41
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c330ca01f4288a0800000000000000
+      internalID: -6304389595341308794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _42
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cf1101d21fb3de0800000000000000
+      internalID: -1352222087249265604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _43
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5fa1a7bfa50a9f0800000000000000
+      internalID: -459267125859912218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _44
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583a4616c8a9eaa40800000000000000
+      internalID: 5381408532474405765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _45
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437ac4d60f6c448a0800000000000000
+      internalID: -6321709240993142988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _46
+      rect:
+        serializedVersion: 2
+        x: 8586
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882e49d2bb0984840800000000000000
+      internalID: 5208572102651994760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _47
+      rect:
+        serializedVersion: 2
+        x: 10017
+        y: 1129
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4504a7790eb849780800000000000000
+      internalID: -8677156785305796524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265170380159548e0800000000000000
+      internalID: -1709796585366940318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lever arm back and forth _49
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 0
+        width: 1431
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205667862f1e81500800000000000000
+      internalID: 367291800881620226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
