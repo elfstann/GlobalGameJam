@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 5733d4e989a2b4743934047b9aa141bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2389487537424426576
+    second: icicle breaks_0
+  - first:
+      213: 897464466330557043
+    second: icicle breaks_1
+  - first:
+      213: 6441046772594244302
+    second: icicle breaks_2
+  - first:
+      213: -9143008837122623890
+    second: icicle breaks_3
+  - first:
+      213: 2606848420423156962
+    second: icicle breaks_4
+  - first:
+      213: 4903395277013097167
+    second: icicle breaks_5
+  - first:
+      213: -121356958220256901
+    second: icicle breaks_6
+  - first:
+      213: -4247826968782639080
+    second: icicle breaks_7
+  - first:
+      213: -624754817749998141
+    second: icicle breaks_8
+  - first:
+      213: 4635818316767937458
+    second: icicle breaks_9
+  - first:
+      213: -4649441017396607554
+    second: icicle breaks_10
+  - first:
+      213: -8408487118541335953
+    second: icicle breaks_11
+  - first:
+      213: -957678227204023109
+    second: icicle breaks_12
+  - first:
+      213: -2717225395112760942
+    second: icicle breaks_13
+  - first:
+      213: -8465940256150981021
+    second: icicle breaks_14
+  - first:
+      213: -2305831206867682173
+    second: icicle breaks_15
+  - first:
+      213: -498843739616558360
+    second: icicle breaks_16
+  - first:
+      213: 7969295881416833952
+    second: icicle breaks_17
+  - first:
+      213: -5806182394792734484
+    second: icicle breaks_18
+  - first:
+      213: 6940333667471714238
+    second: icicle breaks_19
+  - first:
+      213: 2628711945952993524
+    second: icicle breaks_20
+  - first:
+      213: 1420446016557551215
+    second: icicle breaks_21
+  - first:
+      213: -6678335064905318034
+    second: icicle breaks_22
+  - first:
+      213: -7363283587056870365
+    second: icicle breaks_23
+  - first:
+      213: 899115744932569939
+    second: icicle breaks_24
+  - first:
+      213: -6826305937708819893
+    second: icicle breaks_25
+  - first:
+      213: -1006008745011617979
+    second: icicle breaks_26
+  - first:
+      213: 6366447983476116871
+    second: icicle breaks_27
+  - first:
+      213: -6920892975348189639
+    second: icicle breaks_28
+  - first:
+      213: -4989237688860032522
+    second: icicle breaks_29
+  - first:
+      213: 7015987741693777237
+    second: icicle breaks_30
+  - first:
+      213: -5312025440103214468
+    second: icicle breaks_31
+  - first:
+      213: -8153355426791802629
+    second: icicle breaks_32
+  - first:
+      213: -4057667103608439561
+    second: icicle breaks_33
+  - first:
+      213: -2977653793239556052
+    second: icicle breaks_34
+  - first:
+      213: -325430872714660818
+    second: icicle breaks_35
+  - first:
+      213: 4128770082714085707
+    second: icicle breaks_36
+  - first:
+      213: 4270343486564012275
+    second: icicle breaks_37
+  - first:
+      213: -5216892398880599339
+    second: icicle breaks_38
+  - first:
+      213: 4181412469885355113
+    second: icicle breaks_39
+  - first:
+      213: -8377957093966682446
+    second: icicle breaks_40
+  - first:
+      213: 6441671171752684621
+    second: icicle breaks_41
+  - first:
+      213: -8795272657808736824
+    second: icicle breaks_42
+  - first:
+      213: 4257843119179130179
+    second: icicle breaks_43
+  - first:
+      213: 547456408145860865
+    second: icicle breaks_44
+  - first:
+      213: 7984616927489175968
+    second: icicle breaks_45
+  - first:
+      213: -5421172076300662633
+    second: icicle breaks_46
+  - first:
+      213: 3826359919126862493
+    second: icicle breaks_47
+  - first:
+      213: -3985173470146786736
+    second: icicle breaks_48
+  - first:
+      213: 1795610523972979736
+    second: icicle breaks_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icicle breaks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91898aeb5d6ded0800000000000000
+      internalID: -2389487537424426576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a1b2a5d2f647c00800000000000000
+      internalID: 897464466330557043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaf72ed9e1336950800000000000000
+      internalID: 6441046772594244302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e667c0587e18d1180800000000000000
+      internalID: -9143008837122623890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e44c92a3d26d2420800000000000000
+      internalID: 2606848420423156962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_5
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca91bf660c5c0440800000000000000
+      internalID: 4903395277013097167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_6
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79724e4d7ad05ef0800000000000000
+      internalID: -121356958220256901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_7
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 3756
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810f26ab0efac05c0800000000000000
+      internalID: -4247826968782639080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c52c48adcc6457f0800000000000000
+      internalID: -624754817749998141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3c33e823cb55040800000000000000
+      internalID: 4635818316767937458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_10
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5c1f9470ed97fb0800000000000000
+      internalID: -4649441017396607554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_11
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6255e8048d0f4b80800000000000000
+      internalID: -8408487118541335953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcd062f9b4a5b2f0800000000000000
+      internalID: -957678227204023109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_13
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29922ad46e97a4ad0800000000000000
+      internalID: -2717225395112760942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_14
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366f0760130f28a80800000000000000
+      internalID: -8465940256150981021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_15
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 3130
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c34a2fbba0000e0800000000000000
+      internalID: -2305831206867682173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e24ab50340c319f0800000000000000
+      internalID: -498843739616558360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab75d98160a89e60800000000000000
+      internalID: 7969295881416833952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_18
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce09049dfdb4c6fa0800000000000000
+      internalID: -5806182394792734484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_19
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7e558f2b4015060800000000000000
+      internalID: 6940333667471714238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_20
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0aa5b569f0b7420800000000000000
+      internalID: 2628711945952993524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_21
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e088f402076b310800000000000000
+      internalID: 1420446016557551215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_22
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61884d44a9c153a0800000000000000
+      internalID: -6678335064905318034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_23
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2504
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cd205079c50d990800000000000000
+      internalID: -7363283587056870365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353aaac910d4a7c00800000000000000
+      internalID: 899115744932569939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ad9bebae61441a0800000000000000
+      internalID: -6826305937708819893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_26
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f55a06060f902f0800000000000000
+      internalID: -1006008745011617979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_27
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d8818c5ba2a5850800000000000000
+      internalID: 6366447983476116871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_28
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936ffd3e18c04ff90800000000000000
+      internalID: -6920892975348189639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_29
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1c18f81caa2cab0800000000000000
+      internalID: -4989237688860032522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_30
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5551724cdabcd5160800000000000000
+      internalID: 7015987741693777237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_31
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1878
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c725fcca105e746b0800000000000000
+      internalID: -5312025440103214468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8329a007679de80800000000000000
+      internalID: -8153355426791802629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_33
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc71a8844540b7c0800000000000000
+      internalID: -4057667103608439561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20acddb6af3da6d0800000000000000
+      internalID: -2977653793239556052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_35
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24b5e07856db7bf0800000000000000
+      internalID: -325430872714660818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_36
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49ee6bd3865c4930800000000000000
+      internalID: 4128770082714085707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_37
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f01d8996ce434b30800000000000000
+      internalID: 4270343486564012275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_38
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d25945e000e997b0800000000000000
+      internalID: -5216892398880599339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_39
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1252
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964c7eebc7c570a30800000000000000
+      internalID: 4181412469885355113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6e6ae49648bbb80800000000000000
+      internalID: -8377957093966682446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_41
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c61302dc9656950800000000000000
+      internalID: 6441671171752684621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_42
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdba98fd1ae0f580800000000000000
+      internalID: -8795272657808736824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_43
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345630402c5e61b30800000000000000
+      internalID: 4257843119179130179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_44
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1099b81e3b4f89700800000000000000
+      internalID: 547456408145860865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_45
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1309e8ace0fce60800000000000000
+      internalID: 7984616927489175968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_46
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79805dd18b024c4b0800000000000000
+      internalID: -5421172076300662633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_47
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 626
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a5952d216f91530800000000000000
+      internalID: 3826359919126862493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a079fd7d1d1b8c0800000000000000
+      internalID: -3985173470146786736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle breaks_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 187
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ccc5c024a4be810800000000000000
+      internalID: 1795610523972979736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

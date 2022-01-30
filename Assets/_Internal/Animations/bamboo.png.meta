@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 732e1b8df603f3d4a9a03a25f6e262aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1173672819109715352
+    second: bamboo_0
+  - first:
+      213: -7688164583921627626
+    second: bamboo_1
+  - first:
+      213: 3541785599481088897
+    second: bamboo_2
+  - first:
+      213: -6503109056689139563
+    second: bamboo_3
+  - first:
+      213: 4254563391739438322
+    second: bamboo_4
+  - first:
+      213: -731750270611153000
+    second: bamboo_5
+  - first:
+      213: 7630392008004196498
+    second: bamboo_6
+  - first:
+      213: -8894088145834164367
+    second: bamboo_7
+  - first:
+      213: -8467889618796506280
+    second: bamboo_8
+  - first:
+      213: 8432073972850036895
+    second: bamboo_9
+  - first:
+      213: 1493074769239270315
+    second: bamboo_10
+  - first:
+      213: -4868434347869044814
+    second: bamboo_11
+  - first:
+      213: -3154638509477929965
+    second: bamboo_12
+  - first:
+      213: -4990403985679051546
+    second: bamboo_13
+  - first:
+      213: -4718098876359616023
+    second: bamboo_14
+  - first:
+      213: 3979610298192257293
+    second: bamboo_15
+  - first:
+      213: -8032702180296183795
+    second: bamboo_16
+  - first:
+      213: 2826036886503854636
+    second: bamboo_17
+  - first:
+      213: 6770291967399692682
+    second: bamboo_18
+  - first:
+      213: 5925991407267666742
+    second: bamboo_19
+  - first:
+      213: 6571083311729204217
+    second: bamboo_20
+  - first:
+      213: 4541348302381034090
+    second: bamboo_21
+  - first:
+      213: -8922731219217553787
+    second: bamboo_22
+  - first:
+      213: -8174423876112885773
+    second: bamboo_23
+  - first:
+      213: 2864716903322821535
+    second: bamboo_24
+  - first:
+      213: 1299805616241970088
+    second: bamboo_25
+  - first:
+      213: -4377325808752535702
+    second: bamboo_26
+  - first:
+      213: -8652844596468200895
+    second: bamboo_27
+  - first:
+      213: -731234161428358261
+    second: bamboo_28
+  - first:
+      213: -1251553504508134693
+    second: bamboo_29
+  - first:
+      213: -7384525539183366114
+    second: bamboo_30
+  - first:
+      213: -663651609436736560
+    second: bamboo_31
+  - first:
+      213: 4804731319008343626
+    second: bamboo_32
+  - first:
+      213: 3172474449900514316
+    second: bamboo_33
+  - first:
+      213: -8638396374463295721
+    second: bamboo_34
+  - first:
+      213: -1016482686390833884
+    second: bamboo_35
+  - first:
+      213: 2381296988894097741
+    second: bamboo_36
+  - first:
+      213: 7613588917180122775
+    second: bamboo_37
+  - first:
+      213: 8649009323368563967
+    second: bamboo_38
+  - first:
+      213: -2795674989290617167
+    second: bamboo_39
+  - first:
+      213: 7006230879733631380
+    second: bamboo_40
+  - first:
+      213: 632559090872204803
+    second: bamboo_41
+  - first:
+      213: 8375248654024983150
+    second: bamboo_42
+  - first:
+      213: -3504483816842442735
+    second: bamboo_43
+  - first:
+      213: -5319475828448142770
+    second: bamboo_44
+  - first:
+      213: 9111022804802750355
+    second: bamboo_45
+  - first:
+      213: -7800174454505766459
+    second: bamboo_46
+  - first:
+      213: 7939799552653697189
+    second: bamboo_47
+  - first:
+      213: 1277175508241295801
+    second: bamboo_48
+  - first:
+      213: 2160291600594692732
+    second: bamboo_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bamboo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dd099e539b94010800000000000000
+      internalID: 1173672819109715352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_1
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ecc986b072e4590800000000000000
+      internalID: -7688164583921627626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_2
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b0aafcc33f62130800000000000000
+      internalID: 3541785599481088897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_3
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5901b6494c050c5a0800000000000000
+      internalID: -6503109056689139563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_4
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4a207fcde3b0b30800000000000000
+      internalID: 4254563391739438322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_5
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f1def710d48d5f0800000000000000
+      internalID: -731750270611153000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_6
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298d11e8a1994e960800000000000000
+      internalID: 7630392008004196498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_7
+      rect:
+        serializedVersion: 2
+        x: 4382
+        y: 6276
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fba8a44f9d19480800000000000000
+      internalID: -8894088145834164367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8539a6aa1430c7a80800000000000000
+      internalID: -8467889618796506280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_9
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f901b8f6a9eb40570800000000000000
+      internalID: 8432073972850036895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_10
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3ea9b879778b410800000000000000
+      internalID: 1493074769239270315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_11
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf74f231c8df6cb0800000000000000
+      internalID: -4868434347869044814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_12
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cdcc75df87834d0800000000000000
+      internalID: -3154638509477929965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_13
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e418ebe3068ebab0800000000000000
+      internalID: -4990403985679051546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_14
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e95a6bc112f58eb0800000000000000
+      internalID: -4718098876359616023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_15
+      rect:
+        serializedVersion: 2
+        x: 4382
+        y: 5230
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d016c383b7a6a3730800000000000000
+      internalID: 3979610298192257293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00b0f41deb168090800000000000000
+      internalID: -8032702180296183795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_17
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2296364399183720800000000000000
+      internalID: 2826036886503854636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_18
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a890a8e7ca8e4fd50800000000000000
+      internalID: 6770291967399692682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_19
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bd434a9c95d3250800000000000000
+      internalID: 5925991407267666742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_20
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbdd19f47d213b50800000000000000
+      internalID: 6571083311729204217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_21
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aaebc483c160f30800000000000000
+      internalID: 4541348302381034090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_22
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586ef341b371c2480800000000000000
+      internalID: -8922731219217553787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_23
+      rect:
+        serializedVersion: 2
+        x: 4382
+        y: 4184
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7d1dc6bcc9e8e80800000000000000
+      internalID: -8174423876112885773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f932d9c78d481c720800000000000000
+      internalID: 2864716903322821535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_25
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab09214256d90210800000000000000
+      internalID: 1299805616241970088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_26
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d7277e5d9043c0800000000000000
+      internalID: -4377325808752535702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_27
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14acada2fabeae780800000000000000
+      internalID: -8652844596468200895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_28
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b9e6887622ad5f0800000000000000
+      internalID: -731234161428358261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_29
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdab56af7b691aee0800000000000000
+      internalID: -1251553504508134693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_30
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10fc22a525e48990800000000000000
+      internalID: -7384525539183366114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_31
+      rect:
+        serializedVersion: 2
+        x: 4382
+        y: 3138
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d338ec906c3ac6f0800000000000000
+      internalID: -663651609436736560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46bfa69da5dda240800000000000000
+      internalID: 4804731319008343626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_33
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ca25524b4e60c20800000000000000
+      internalID: 3172474449900514316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_34
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc71ff3404e1880800000000000000
+      internalID: -8638396374463295721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_35
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42de65dd16ab4e1f0800000000000000
+      internalID: -1016482686390833884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_36
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d417db7aef01c0120800000000000000
+      internalID: 2381296988894097741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_37
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7964f5a18c6e8a960800000000000000
+      internalID: 7613588917180122775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_38
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4cc6ab724770870800000000000000
+      internalID: 8649009323368563967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_39
+      rect:
+        serializedVersion: 2
+        x: 4382
+        y: 2092
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b683ebc864c339d0800000000000000
+      internalID: -2795674989290617167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49945e05dd12b3160800000000000000
+      internalID: 7006230879733631380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_41
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eb1e6442d47c800800000000000000
+      internalID: 632559090872204803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_42
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e624ab0e64cda3470800000000000000
+      internalID: 8375248654024983150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_43
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118400049829d5fc0800000000000000
+      internalID: -3504483816842442735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_44
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a5216faec6d26b0800000000000000
+      internalID: -5319475828448142770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_45
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39740ccf7fad07e70800000000000000
+      internalID: 9111022804802750355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_46
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c18b1529a630c390800000000000000
+      internalID: -7800174454505766459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_47
+      rect:
+        serializedVersion: 2
+        x: 4382
+        y: 1046
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0aab350a5df2e60800000000000000
+      internalID: 7939799552653697189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b92d84ab5079b110800000000000000
+      internalID: 1277175508241295801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamboo_49
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 0
+        width: 626
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ae4b8d3c5eafd10800000000000000
+      internalID: 2160291600594692732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
