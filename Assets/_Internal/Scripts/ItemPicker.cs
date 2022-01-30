@@ -22,7 +22,8 @@ public class ItemPicker : MonoBehaviour
     private void Interact(InputAction.CallbackContext obj) 
     {
         if (lastChecker == null) return;
-        lastChecker.CheckItems();
+        if (PlayerController.Instance.currentPlayerState == PlayerState.Bear)
+            lastChecker.CheckItems();
     }
 
 

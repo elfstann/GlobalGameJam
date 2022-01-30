@@ -11,6 +11,7 @@ public abstract class BaseTrap : MonoBehaviour
     [SerializeField] bool destroyOnItemCollision = true;
     [SerializeField] bool destroyOnPlayerCollision = true;
 
+    public bool isAlive { get; set; } = true;
     Vector2 velocity = Vector2.zero;
 
     private void Awake()
@@ -34,6 +35,7 @@ public abstract class BaseTrap : MonoBehaviour
 
     public virtual void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!isAlive) return;
         if (collision.gameObject.tag == "Player")
         {
             PlayerController.Instance.CurrentHealthController.CurrentHealth -= damagePerHit;
